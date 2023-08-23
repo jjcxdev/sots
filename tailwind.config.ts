@@ -1,4 +1,5 @@
-import type { Config } from 'tailwindcss'
+import plugin from 'tailwindcss/plugin';
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -8,6 +9,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'custom-blue': '#20446E',
+        'custom-gold': '#C3904D',
+        // Add more custom colors here
+      },
+      fontSize: {
+        '2xs': '10px'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -15,6 +24,15 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
-}
+  plugins: [
+    plugin(function ({ addUtilities }) {
+      const newUtilities = {
+        '.diagonal-cut': {
+          clipPath: 'polygon(0 0, 46% 0, 100% 100%, 0% 100%)',
+        },
+      };
+      addUtilities(newUtilities);
+    }),
+  ],
+};
 export default config
