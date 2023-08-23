@@ -5,7 +5,7 @@ import PageHeader from "../components/pageheader";
 const Rooms: React.FC = () => (
   <RootLayout>
     <div>
-      <PageHeader title="FAQ" imageSrc="/img4.png" />
+      <PageHeader title="Rooms / Pricing" imageSrc="/img4.png" />
       <RoomCard title="Interior Stateroom" imageSrc="/img6.png" price="$****">
         After an action-packed schedule of meetings, activities, and exploring
         the world, you need to relax. At the end of a busy day, retreat to your
