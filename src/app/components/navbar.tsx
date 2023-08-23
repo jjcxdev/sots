@@ -8,8 +8,8 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="flex py-2 items-center bg-white justify-between flex-wrap">
-      <div className="flex items-center mr-14 flex-shrink-0 text-white pl-6">
+    <div className="flex py-2 px-6 items-center bg-white justify-between flex-wrap md:flex-nowrap">
+      <div className="flex items-center mr-14 flex-shrink-0 text-white">
         <Image
           src="/logo.png"
           width="72"
@@ -20,10 +20,10 @@ function Navbar() {
       </div>
       <button
         type="button"
-        className="text-black justify-end ml-8 bg-custom-gold hover:bg-custom-blue hover:text-white font-bold rounded-lg text-sm px-4 py-2 text-center uppercase sm:hidden">
+        className="text-black justify-end ml-8 bg-custom-gold hover:bg-custom-blue hover:text-white font-bold rounded-lg text-sm px-4 py-2 text-center uppercase sm:hidden md:hidden whitespace-nowrap">
         Book Now
       </button>
-      <div className="">
+      <div className="md:hidden">
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="flex items-center px-3 py-2 rounded text-black hover:text-black-400">
@@ -42,21 +42,20 @@ function Navbar() {
         </button>
       </div>
       <div
-        className={`w-full block bg-white pr-6  text-custom-blue pl-10 flex-grow ${
-          isOpen ? "block" : "hidden"
-        }
-        }`}>
-        <div className="text-sm uppercase font-bold ">
-          <Link href="/" className="block py-4 text-white-200">
+        className={`w-full flex flex-col bg-white pr-6 text-custom-blue flex-grow ${
+          isOpen ? "block" : "hidden" // Handles the toggle state for small screens
+        } md:flex`}>
+        <div className="text-sm uppercase font-bold flex flex-col md:flex-row justify-end">
+          <Link href="/" className="block py-4 md:px-4 text-white-200">
             Home
           </Link>
-          <Link href="/course" className="block py-4 text-white-200">
+          <Link href="/course" className="block py-4 md:px-4 text-white-200">
             Experience
           </Link>
-          <Link href="/rooms" className="block py-4 text-white-200">
+          <Link href="/rooms" className="block py-4 md:px-4 text-white-200">
             Rooms / Pricing
           </Link>
-          <Link href="/faq" className="block py-4 stext-white-200">
+          <Link href="/faq" className="block py-4 md:px-4 text-white-200">
             FAQ
           </Link>
         </div>
@@ -64,7 +63,7 @@ function Navbar() {
       </div>
       <button
         type="button"
-        className="text-black bg-custom-gold hover:bg-custom-blue hover:text-white font-bold rounded-lg text-sm px-4 py-2 text-center uppercase ">
+        className="text-black bg-custom-gold hover:bg-custom-blue hover:text-white font-bold rounded-lg text-sm px-4 py-2 text-center uppercase hidden md:block whitespace-nowrap">
         Book Now
       </button>
     </div>
