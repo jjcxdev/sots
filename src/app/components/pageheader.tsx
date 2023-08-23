@@ -17,7 +17,7 @@ const PageHeader: React.FC<PageHeaderProps> = ({ title, imageSrc }) => {
         />
       </div>
       <div className=" w-3/5 h-full bg-custom-blue text-white flex items-end z-10 diagonal-cut">
-        <div className="text-container font-extrabold pl-6 pb-4 text-6xl w-full bg-custom-blue ">
+        <div className="text-container font-extrabold pl-6 pb-4 text-4xl lg:text-6xl w-full bg-custom-blue ">
           {title}
         </div>
       </div>
