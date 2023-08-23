@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
+import { FaPhone } from "react-icons/fa";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,13 +11,15 @@ function Navbar() {
   return (
     <div className="flex py-2 px-6 items-center bg-white justify-between flex-wrap md:flex-nowrap">
       <div className="flex items-center mr-14 flex-shrink-0 text-white">
-        <Image
-          src="/logo.png"
-          width="72"
-          height="72"
-          className=""
-          alt="Seminar On The Seas Logo"
-        />
+        <Link href="/">
+          <Image
+            src="/logo.png"
+            width="72"
+            height="72"
+            className=""
+            alt="Seminar On The Seas Logo"
+          />
+        </Link>
       </div>
       <button
         type="button"
@@ -42,22 +45,29 @@ function Navbar() {
         </button>
       </div>
       <div
-        className={`w-full flex flex-col bg-white pr-6 text-custom-blue flex-grow ${
+        className={`w-full flex flex-col bg-white md:pr-6 text-custom-blue flex-grow ${
           isOpen ? "block" : "hidden" // Handles the toggle state for small screens
         } md:flex`}>
-        <div className="text-sm uppercase font-bold flex flex-col md:flex-row justify-end">
-          <Link href="/" className="block py-4 md:px-4 text-white-200">
+        <div className="text-base uppercase font-extrabold flex flex-col md:flex-row md:items-center justify-end">
+          <Link href="/" className="block py-2 md:px-4 text-white-200">
             Home
           </Link>
-          <Link href="/course" className="block py-4 md:px-4 text-white-200">
+          <Link href="/course" className="block py-2 md:px-4 text-white-200">
             Experience
           </Link>
-          <Link href="/rooms" className="block py-4 md:px-4 text-white-200">
+          <Link href="/rooms" className="block py-2 md:px-4 text-white-200">
             Rooms / Pricing
           </Link>
-          <Link href="/faq" className="block py-4 md:px-4 text-white-200">
+          <Link href="/faq" className="block py-2 md:px-4 text-white-200">
             FAQ
           </Link>
+          <div className="flex flex-col items-center justify-center md:hidden">
+            <div>U.S. & CANADA</div>
+            <div className="bg-custom-blue w-full text-white py-2 flex justify-center">
+              <FaPhone className="mr-2" />
+              <a href="tel:416.896.2495">416.896.2495</a>
+            </div>
+          </div>
         </div>
         <div></div>
       </div>
