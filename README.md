@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Seminar on the Seas
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Seminar on the Seas is an informational website designed to showcase a unique concept for training seminars held on Royal Caribbean cruises. Targeted at investors, the website provides a glimpse of this novel approach to professional development at sea. While currently an informational platform, future development may include authentication, payment processing, and user database functionalities.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Installation and Setup
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Prerequisites
+- React (Next.js 13)
+- Tailwind CSS
+- TypeScript
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install the required dependencies.
+4. Start the development server.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Note: Detailed instructions will be provided at a later stage if needed.
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+Simply navigate to the hosted URL to explore the website. Currently, the website serves as a responsive showcase of the Seminar on the Seas concept, including a navbar and a menu toggle for mobile users. A "Book Now" button is included, though it is not functional at this time.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
+- Responsive design compatible with various screen sizes.
+- Interactive navbar with menu toggle for mobile viewing.
+- Informational content describing the concept of Seminar on the Seas.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies Used
+- React (Next.js 13)
+- TypeScript
+- Tailwind CSS
 
-## Deploy on Vercel
+## License
+The content of this project itself is proprietary, and the owners do not wish it to be copied or reproduced. For more information on the license, please contact the project administrator.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contact Information
+You can reach out to me on [Twitter](https://twitter.com/jjcxdev).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Screenshots or Demo
+*Placeholder for screenshots or a live demo*
+
+## Acknowledgments
+Special thanks to Karen and Alex for their support and contributions to the project.
