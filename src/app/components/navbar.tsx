@@ -8,6 +8,8 @@ import { FaPhone } from "react-icons/fa";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const closeNavbar = () => setIsOpen(false);
+
   return (
     <div className="flex py-2 px-6 items-center bg-white justify-between flex-wrap md:flex-nowrap">
       <div className="flex items-center mr-14 flex-shrink-0 text-white">
@@ -49,18 +51,26 @@ function Navbar() {
           isOpen ? "block" : "hidden" // Handles the toggle state for small screens
         } md:flex`}>
         <div className="text-base uppercase font-extrabold flex flex-col md:flex-row md:items-center justify-end">
-          <Link href="/" className="block py-2 md:px-4 text-white-200">
-            Home
-          </Link>
-          <Link href="/course" className="block py-2 md:px-4 text-white-200">
-            Experience
-          </Link>
-          <Link href="/rooms" className="block py-2 md:px-4 text-white-200">
-            Rooms / Pricing
-          </Link>
-          <Link href="/faq" className="block py-2 md:px-4 text-white-200">
-            FAQ
-          </Link>
+          <div onClick={closeNavbar}>
+            <Link href="/" className="block py-2 md:px-4 text-white-200">
+              Home
+            </Link>
+          </div>
+          <div onClick={closeNavbar}>
+            <Link href="/course" className="block py-2 md:px-4 text-white-200">
+              Experience
+            </Link>
+          </div>
+          <div onClick={closeNavbar}>
+            <Link href="/rooms" className="block py-2 md:px-4 text-white-200">
+              Rooms / Pricing
+            </Link>
+          </div>
+          <div onClick={closeNavbar}>
+            <Link href="/faq" className="block py-2 md:px-4 text-white-200">
+              FAQ
+            </Link>
+          </div>
           <div className="flex flex-col items-center justify-center md:hidden">
             <div>U.S. & CANADA</div>
             <div className="bg-custom-blue w-full text-white py-2 flex justify-center">
