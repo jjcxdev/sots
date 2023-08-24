@@ -20,6 +20,7 @@ function Navbar() {
             height="72"
             className=""
             alt="Seminar On The Seas Logo"
+            style={{ width: "auto" }}
           />
         </Link>
       </div>

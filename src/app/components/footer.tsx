@@ -4,13 +4,14 @@ export default function Footer() {
   return (
     <>
       <footer className="flex flex-col py-10 items-center justify-center flex-wrap">
-        <div className="flex items-center flex-shrink-0 text-white w-auto h-auto">
+        <div className="flex items-center flex-shrink-0 text-white ">
           <Image
             src="/logo.webp"
             width="72"
             height="72"
             className=""
             alt="Seminar On The Seas Logo"
+            style={{ width: "auto" }}
           />
         </div>
         <address

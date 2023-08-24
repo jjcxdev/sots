@@ -16,6 +16,7 @@ const PageHeader: React.FC<PageHeaderProps> = ({ title, imageSrc }) => {
           alt={title}
           className="object-cover"
           fill={true}
+          priority
         />
       </div>
       <div className=" w-3/5 h-full bg-custom-blue text-white flex items-end z-10 diagonal-cut">
