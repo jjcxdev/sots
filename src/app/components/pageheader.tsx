@@ -3,6 +3,8 @@ import Image from "next/image";
 type PageHeaderProps = {
   title: string;
   imageSrc: string;
+  alt: string;
+  id: string;
 };
 
 const PageHeader: React.FC<PageHeaderProps> = ({ title, imageSrc }) => {
@@ -17,9 +19,9 @@ const PageHeader: React.FC<PageHeaderProps> = ({ title, imageSrc }) => {
         />
       </div>
       <div className=" w-3/5 h-full bg-custom-blue text-white flex items-end z-10 diagonal-cut">
-        <div className="text-container font-extrabold pl-6 pb-4 text-4xl lg:text-6xl w-full bg-custom-blue ">
+        <h1 className="text-container font-extrabold pl-6 pb-4 text-4xl lg:text-6xl w-full bg-custom-blue ">
           {title}
-        </div>
+        </h1>
       </div>
     </div>
   );

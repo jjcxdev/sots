@@ -5,6 +5,7 @@ type RoomCardProps = {
   imageSrc: string;
   price: string;
   children: React.ReactNode;
+  id: string;
 };
 
 function RoomCard({ title, imageSrc, price, children }: RoomCardProps) {

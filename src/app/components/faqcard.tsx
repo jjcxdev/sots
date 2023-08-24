@@ -1,6 +1,7 @@
 type CardProps = {
   title: string;
   children: React.ReactNode;
+  id: string;
 };
 
 function Card({ title, children }: CardProps) {
