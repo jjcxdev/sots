@@ -6,7 +6,7 @@ export default function Footer() {
       <footer className="flex flex-col py-10 items-center justify-center flex-wrap">
         <div className="flex items-center flex-shrink-0 text-white w-auto h-auto">
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             width="72"
             height="72"
             className=""
@@ -14,9 +14,9 @@ export default function Footer() {
           />
         </div>
         <address
-          className="flex flex-col text-center"
+          className="flex flex-col text-center font-normal"
           aria-labelledby="contact-details">
-          <div id="contact-details" className="text-base">
+          <div id="contact-details" className="text-base pt-4">
             Automated Home Technologies
             <br />
             Seminar on the Seas
@@ -26,9 +26,11 @@ export default function Footer() {
             </a>
             <br />
             U.S. & CANADA:
-            <a href="tel:416.896.2495">416.896.2495</a>
+            <a href="tel:416.896.2495" className="ml-2">
+              416.896.2495
+            </a>
           </div>
-          <p className="text-2xs">
+          <p className="text-2xs px-4">
             <br />* Pricing valid until April 18/24. Complimentary rooms based
             upon 150 cabins being sold. Rooms/pricing may change after this
             date.

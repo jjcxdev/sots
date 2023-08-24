@@ -5,7 +5,7 @@ export default function Course() {
     <div role="main" aria-labelledby="course-heading">
       <PageHeader
         title="Experience"
-        imageSrc="/img3.png"
+        imageSrc="/img3.webp"
         alt="Stage inside the ship"
         id="course-heading"
       />

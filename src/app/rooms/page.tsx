@@ -5,14 +5,14 @@ const Rooms: React.FC = () => (
   <div role="main" aria-labelledby="rooms-heading">
     <PageHeader
       title="Rooms / Pricing"
-      imageSrc="/img4.png"
+      imageSrc="/img4.webp"
       alt="Aerial shot of the ship"
       id="rooms-heading"
     />
     <div role="region" aria-labelledby="roomtype-heading">
       <RoomCard
         title="Interior Stateroom"
-        imageSrc="/img6.png"
+        imageSrc="/img6.webp"
         id="interior stateroom"
         price="$****">
         After an action-packed schedule of meetings, activities, and exploring
@@ -27,7 +27,7 @@ const Rooms: React.FC = () => (
       </RoomCard>
       <RoomCard
         title="Ocean View Stateroom"
-        imageSrc="/img7.png"
+        imageSrc="/img7.webp"
         id="ocean view stateroom"
         price="$****">
         As your Royal Caribbean cruise sails to some of the world’s most
@@ -40,7 +40,7 @@ const Rooms: React.FC = () => (
       </RoomCard>
       <RoomCard
         title="Balcony Stateroom"
-        imageSrc="/img8.png"
+        imageSrc="/img8.webp"
         id="balcony stateroom"
         price="$****">
         Imagine waking up every morning, opening your balcony door, and being
@@ -54,7 +54,7 @@ const Rooms: React.FC = () => (
       </RoomCard>
       <RoomCard
         title="Suite Stateroom"
-        imageSrc="/img9.png"
+        imageSrc="/img9.webp"
         id="suite stateroom"
         price="$****">
         More space. More comfort. More to love! Indulge in one of Royal

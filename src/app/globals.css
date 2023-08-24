@@ -7,3 +7,8 @@ html {
   color: white;
   background: #20446e;
 }
+
+address {
+  font-style: normal; /* Override italic */
+  /* Any other styles you want to apply */
+}

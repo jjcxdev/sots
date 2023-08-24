@@ -5,7 +5,7 @@ const FAQPage: React.FC = () => (
   <div className="bg-white" role="main" aria-labelledby="faq-heading">
     <PageHeader
       title="FAQ"
-      imageSrc="/img5.png"
+      imageSrc="/img5.webp"
       alt="View from inside the ship"
       id="FAQ-heading"
     />

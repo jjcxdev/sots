@@ -15,7 +15,7 @@ function Navbar() {
       <div className="flex items-center mr-14 flex-shrink-0 text-white w-auto h-auto">
         <Link href="/">
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             width="72"
             height="72"
             className=""
