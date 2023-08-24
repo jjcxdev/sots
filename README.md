@@ -37,7 +37,7 @@ Simply navigate to the hosted URL to explore the website. Currently, the website
 The content of this project itself is proprietary, and the owners do not wish it to be copied or reproduced. For more information on the license, please contact the project administrator.
 
 ## Contact Information
-You can reach out to me on [Twitter](https://twitter.com/jjcxdev).
+You can reach out to me on [Twitter/X](https://twitter.com/jjcxdev).
 
 ## Screenshots or Demo
 *Placeholder for screenshots or a live demo*
