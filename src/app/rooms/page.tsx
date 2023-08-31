@@ -1,5 +1,6 @@
 import RoomCard from "../components/roomcard";
 import PageHeader from "../components/pageheader";
+import Splash from "../components/splash";
 
 const Rooms: React.FC = () => (
   <>
@@ -9,6 +10,14 @@ const Rooms: React.FC = () => (
         imageSrc="/img4.webp"
         alt={""}
         id={""}
+      />
+      <Splash
+        title="Seminar on the Seas"
+        imageSrc="/img5.webp"
+        alt="symphony on the seas"
+        date="04.13.2025 - 04.20.2025"
+        location="Miami Cococay Charlotte Amalie Philpsburg"
+        id="seminar"
       />
       <div className="py-6 bg-white">
         <div>
