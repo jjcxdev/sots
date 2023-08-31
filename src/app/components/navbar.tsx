@@ -11,13 +11,13 @@ function Navbar() {
   const closeNavbar = () => setIsOpen(false);
 
   return (
-    <nav className="flex py-2 px-4 items-center bg-white justify-between flex-wrap md:flex-nowrap">
+    <nav className="flex py-2 px-4 items-center bg-custom-blue justify-between flex-wrap md:flex-nowrap">
       <div className="flex items-center mr-14 flex-shrink-0 text-white w-auto h-auto">
         <Link href="/">
           <Image
             src="/sotsLogo.webp"
-            width="72"
-            height="72"
+            width="60"
+            height="60"
             className=""
             alt="Seminar On The Seas Logo"
             style={{ width: "auto" }}
@@ -26,7 +26,7 @@ function Navbar() {
       </div>
       <button
         type="button"
-        className="text-black justify-end ml-8 bg-custom-gold hover:bg-custom-blue hover:text-white font-bold rounded-lg text-sm px-4 py-2 text-center uppercase sm:hidden md:hidden whitespace-nowrap"
+        className="text-black justify-end ml-8 bg-accent-blue hover:bg-custom-blue hover:text-white font-bold rounded-lg text-sm px-4 py-2 text-center uppercase sm:hidden md:hidden whitespace-nowrap"
       >
         Book Now
       </button>
@@ -34,7 +34,7 @@ function Navbar() {
         <button
           onClick={() => setIsOpen(!isOpen)}
           aria-label={isOpen ? "Close menu" : "Open menu"}
-          className="flex items-center px-3 py-2 rounded text-black hover:text-black-400"
+          className="flex items-center px-3 py-2 rounded text-accent-blue hover:text-black-400"
         >
           <svg
             className={`fill-current h-5 w-5 ${isOpen ? "hidden" : "block"}`}
@@ -53,7 +53,7 @@ function Navbar() {
         </button>
       </div>
       <div
-        className={`w-full flex flex-col bg-white md:pr-6 text-custom-blue flex-grow ${
+        className={`w-full flex flex-col bg-custom-blue md:pr-6 text-white flex-grow ${
           isOpen ? "block" : "hidden" // Handles the toggle state for small screens
         } md:flex`}
         role="menu"
@@ -76,7 +76,7 @@ function Navbar() {
               className="block py-2 md:px-4 text-white-200"
               role="menuitem"
             >
-              Experience
+              Course
             </Link>
           </div>
           <div onClick={closeNavbar} role="none">
@@ -102,7 +102,7 @@ function Navbar() {
             role="none"
           >
             <div>U.S. & CANADA</div>
-            <div className="bg-custom-blue w-full text-white py-2 flex justify-center">
+            <div className="bg-white w-full text-custom-blue py-2 flex justify-center">
               <FaPhone className="mr-2" />
               <a href="tel:416.896.2495" role="menuitem">
                 416.896.2495
@@ -114,7 +114,7 @@ function Navbar() {
       </div>
       <button
         type="button"
-        className="text-black bg-custom-gold hover:bg-custom-blue hover:text-white font-bold rounded-lg text-sm px-4 py-2 text-center uppercase hidden md:block whitespace-nowrap"
+        className="text-black bg-accent-blue hover:bg-custom-blue hover:text-white font-bold rounded-lg text-sm px-4 py-2 text-center uppercase hidden md:block whitespace-nowrap"
       >
         Book Now
       </button>

@@ -18,27 +18,33 @@ export const RoomCard: React.FC<RoomCardProps> = ({
   id,
 }) => {
   return (
-    <div className="py-4 bg-white flex-col flex ">
-      <div className="md:w-5/6 lg:w-3/4 m-auto mt-4 ">
-        <div className="w-full relative " style={{ height: "325px" }}>
+    <div className="py-6 bg-white flex-col flex">
+      <div className="md:w-5/6 lg:w-3/4 m-auto mt-4 w-full px-4">
+        <div
+          className="relative rounded-t-md overflow-hidden w-full"
+          style={{ height: "325px" }}
+        >
           <Image
             src={imageSrc}
             alt={title}
-            className="object-cover px-4 w-full h-full"
-            fill={true}
+            layout="fill"
+            objectFit="cover"
+            className="absolute rounded-t-md"
           />
         </div>
-        <div className="w-full px-4 flex flex-col">
-          <div className="mb-4">
-            <div className="bg-custom-gold p-4 uppercase font-extrabold text-xl border border-custom-gold">
+        <div className="w-full flex flex-col">
+          {" "}
+          {/* Added px-4 here */}
+          <div className="mb-4 rounded-b-md">
+            <div className="bg-custom-blue p-4 uppercase font-extrabold text-xl border border-custom-blue">
               {title}
             </div>
-            <div className="border text-custom-blue text-base border-custom-gold">
+            <div className="border rounded-b-md text-neutral-600 text-base border-custom-blue">
               <div className="p-4">{blurb}</div>
 
               <div className="w-full flex flex-col"></div>
               <div
-                className="pt-4 bg-[#20446E] items-center text-white text-4xl text-center font-extrabold"
+                className="pt-4 bg-custom-blue items-center text-white text-4xl text-center font-extrabold"
                 style={{
                   textDecoration: "line-through",
                   textDecorationColor: "red",
@@ -47,7 +53,7 @@ export const RoomCard: React.FC<RoomCardProps> = ({
                 ${price.toLocaleString()}
               </div>
 
-              <div className="pb-4 bg-[#20446E] items-center text-yellow-400 text-2xl text-center font-extrabold">
+              <div className="pb-4 bg-custom-blue items-center text-yellow-400 text-2xl text-center font-extrabold">
                 ${earlybird.toLocaleString()}
                 <p className="text-base">
                   Early bird discount untl August 31, 2024

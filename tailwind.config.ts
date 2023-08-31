@@ -10,7 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'custom-blue': '#20446E',
+        'custom-blue': '#3982b9',
         'custom-gold': '#B4803C',
         'accent-blue': '#6ABAD8'
         // Add more custom colors here
@@ -29,7 +29,7 @@ const config: Config = {
     plugin(function ({ addUtilities }) {
       const newUtilities = {
         '.diagonal-cut': {
-          clipPath: 'polygon(0 0, 46% 0, 100% 100%, 0% 100%)',
+          clipPath: 'polygon(0 0, 80% 0, 100% 100%, 0% 100%)',
         },
       };
       addUtilities(newUtilities);
