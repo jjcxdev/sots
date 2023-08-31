@@ -11,8 +11,9 @@ const config: Config = {
     extend: {
       colors: {
         'custom-blue': '#3982b9',
+        'custom-blue-dark': '#20446E',
         'custom-gold': '#B4803C',
-        'accent-blue': '#6ABAD8'
+        'accent-blue': '#15BAFE'
         // Add more custom colors here
       },
       fontSize: {

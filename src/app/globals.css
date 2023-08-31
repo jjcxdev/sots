@@ -5,7 +5,7 @@
 body,
 html {
   color: white;
-  background: #3982b9;
+  background: #20446e;
 }
 
 address {
@@ -31,4 +31,20 @@ address {
   top: 50%;
   transform: translateY(-50%);
   margin-right: 12px; /* Adjust this to control space between bullet and text */
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.item::after {
+  content: "•";
+  margin: 0 5px;
+  color: #6abad8; /* Customize the color */
+  font-size: 14px; /* Customize the size */
+}
+
+.item:last-child::after {
+  content: ""; /* Remove bullet after the last item */
 }

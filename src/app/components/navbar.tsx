@@ -11,7 +11,7 @@ function Navbar() {
   const closeNavbar = () => setIsOpen(false);
 
   return (
-    <nav className="flex py-2 px-4 items-center bg-custom-blue justify-between flex-wrap md:flex-nowrap">
+    <nav className="flex py-2 px-4 items-center bg-white justify-between flex-wrap md:flex-nowrap">
       <div className="flex items-center mr-14 flex-shrink-0 text-white w-auto h-auto">
         <Link href="/">
           <Image
@@ -26,7 +26,7 @@ function Navbar() {
       </div>
       <button
         type="button"
-        className="text-black justify-end ml-8 bg-accent-blue hover:bg-custom-blue hover:text-white font-bold rounded-lg text-sm px-4 py-2 text-center uppercase sm:hidden md:hidden whitespace-nowrap"
+        className="text-neutral-900 justify-end ml-8 bg-custom-gold hover:bg-custom-blue hover:text-white font-bold rounded-lg text-sm px-4 py-2 text-center uppercase sm:hidden md:hidden whitespace-nowrap"
       >
         Book Now
       </button>
