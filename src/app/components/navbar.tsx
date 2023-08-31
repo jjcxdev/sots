@@ -11,7 +11,7 @@ function Navbar() {
   const closeNavbar = () => setIsOpen(false);
 
   return (
-    <nav className="flex py-2 px-6 items-center bg-white justify-between flex-wrap md:flex-nowrap">
+    <nav className="flex py-2 px-4 items-center bg-white justify-between flex-wrap md:flex-nowrap">
       <div className="flex items-center mr-14 flex-shrink-0 text-white w-auto h-auto">
         <Link href="/">
           <Image

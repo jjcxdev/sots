@@ -5,10 +5,30 @@
 body,
 html {
   color: white;
-  background: #20446e;
+  background: #3982b9;
 }
 
 address {
   font-style: normal; /* Override italic */
   /* Any other styles you want to apply */
+}
+
+.custom-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 24px; /* Space for the custom bullet */
+}
+
+.custom-list li::before {
+  content: "•"; /* The bullet symbol */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 12px; /* Adjust this to control space between bullet and text */
 }
