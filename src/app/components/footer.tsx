@@ -6,7 +6,7 @@ export default function Footer() {
       <footer className="flex flex-col py-10 items-center justify-center flex-wrap">
         <div className="flex items-center flex-shrink-0 text-white ">
           <Image
-            src="/logo.webp"
+            src="/sotsLogo.webp"
             width="72"
             height="72"
             className=""
@@ -16,7 +16,8 @@ export default function Footer() {
         </div>
         <address
           className="flex flex-col text-center font-normal"
-          aria-labelledby="contact-details">
+          aria-labelledby="contact-details"
+        >
           <div id="contact-details" className="text-base pt-4">
             Automated Home Technologies
             <br />
