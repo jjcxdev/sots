@@ -8,7 +8,7 @@ export default function Info() {
         <br />
         <br />
         It&apos;s one of the world&apos;s largest mega-cruise ships in the
-        Oasis® class of cruise ships.This amazing 7-night Eastern Caribbean
+        Oasis® class of cruise ships. This amazing 7-night Eastern Caribbean
         cruise will depart Miami, Florida on Sunday, April 13th and cruise to
         CocoCay, Bahamas; Charlotte Amalie, St. Thomas; and Philipsburg, St.
         Maarten. The Symphony of the Seas returns to Miami on Sunday morning,
