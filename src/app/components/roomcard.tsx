@@ -36,7 +36,7 @@ export const RoomCard: React.FC<RoomCardProps> = ({
           {" "}
           {/* Added px-4 here */}
           <div className="mb-4 rounded-b-md">
-            <div className="bg-custom-blue p-4 uppercase font-extrabold text-xl border border-custom-blue">
+            <div className="bg-accent-blue p-4 uppercase font-extrabold text-xl border border-custom-blue">
               {title}
             </div>
             <div className="border rounded-b-md text-neutral-600 text-base border-custom-blue">
@@ -44,7 +44,7 @@ export const RoomCard: React.FC<RoomCardProps> = ({
 
               <div className="w-full flex flex-col"></div>
               <div
-                className="pt-4 bg-custom-blue items-center text-white text-4xl text-center font-extrabold"
+                className="pt-4 bg-custom-blue-dark items-center text-white text-4xl text-center font-extrabold"
                 style={{
                   textDecoration: "line-through",
                   textDecorationColor: "red",
@@ -53,7 +53,7 @@ export const RoomCard: React.FC<RoomCardProps> = ({
                 ${price.toLocaleString()}
               </div>
 
-              <div className="pb-4 bg-custom-blue items-center text-yellow-400 text-2xl text-center font-extrabold">
+              <div className="pb-4 bg-custom-blue-dark items-center text-yellow-400 text-2xl text-center font-extrabold">
                 ${earlybird.toLocaleString()}
                 <p className="text-base">
                   Early bird discount untl August 31, 2024

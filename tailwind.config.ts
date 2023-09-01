@@ -13,7 +13,7 @@ const config: Config = {
         'custom-blue': '#3982b9',
         'custom-blue-dark': '#20446E',
         'custom-gold': '#B4803C',
-        'accent-blue': '#15BAFE'
+        'accent-blue': '#017DB2'
         // Add more custom colors here
       },
       fontSize: {

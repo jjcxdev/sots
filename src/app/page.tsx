@@ -24,7 +24,7 @@ export default function Header() {
         <div className="uppercase text-2xl font-extrabold">
           Welcome to a new style of training
         </div>
-        <div className="py-2 text-3xl font-extrabold text-accent-blue">
+        <div className="py-2 text-3xl font-extrabold text-[#43C6FE]">
           04.13.2025 - 04.20.2025
         </div>
         <div className="container text-center flex flex-row justify-center flex-wrap font-extrabold text-xl py-2 whitespace-normal uppercase">
@@ -34,7 +34,7 @@ export default function Header() {
           <span className="whitespace-nowrap">Philipsburg</span>
         </div>
 
-        <div className="py-2 uppercase text-lg font-extrabold text-custom-gold">
+        <div className="py-2 uppercase text-lg font-extrabold text-[#D7A770]">
           Sailing on Royal Caribbean's Symphony of the Seas
         </div>
         <div>
@@ -46,6 +46,18 @@ export default function Header() {
         </div>
       </div>
       <div>
+        <div
+          className="relative overflow-hidden w-full"
+          style={{ height: "325px" }}
+        >
+          <Image
+            src="/img3.webp"
+            alt="symphony of the seas ship"
+            layout="fill"
+            objectFit="cover"
+            className="absolute"
+          />
+        </div>
         <Info />
       </div>
       <h2 className="pt-2 uppercase text-center bg-white text-custom-gold text-3xl font-bold">
@@ -55,7 +67,7 @@ export default function Header() {
         Anthony Grimani
       </div>
       <div
-        className="relative rounded-t-md overflow-hidden w-full"
+        className="relative overflow-hidden w-full"
         style={{ height: "325px" }}
       >
         <Image
@@ -63,7 +75,7 @@ export default function Header() {
           alt="anthony grimani"
           layout="fill"
           objectFit="cover"
-          className="absolute rounded-t-md"
+          className="absolute"
         />
       </div>
       <p className="bg-white text-neutral-600 p-4 pb-12">
@@ -73,11 +85,11 @@ export default function Header() {
         association. In 2013, CEPro Magazine named him one of the “Top 20 Most
         Influential People of the Past 20 Years.” He’s a frequent lecturer at
         industry conferences such as{" "}
-        <Link className="text-custom-blue font-bold" href="https://aes2.org/">
+        <Link className="text-[#26577D] font-bold" href="https://aes2.org/">
           AES
         </Link>{" "}
         and{" "}
-        <Link className="text-custom-blue font-bold" href="https://cedia.net/">
+        <Link className="text-[#26577D] font-bold" href="https://cedia.net/">
           CEDIA
         </Link>{" "}
         and earned the CEDIA Top Instructor award.

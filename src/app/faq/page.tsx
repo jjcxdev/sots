@@ -35,7 +35,7 @@ const FAQPage: React.FC = () => (
           <br />
           <br />
           Additional details on Travel Insurance can be found under the{" "}
-          <span className="font-bold text-custom-blue">
+          <span className="font-bold text-custom-blue-dark">
             TRAVEL INSURANCE
           </span>{" "}
           tab below. All reservation change requests must be made by contacting

@@ -53,7 +53,7 @@ function Navbar() {
         </button>
       </div>
       <div
-        className={`w-full flex flex-col bg-custom-blue md:pr-6 text-white flex-grow ${
+        className={`w-full flex flex-col text-custom-blue-dark md:pr-6flex-grow ${
           isOpen ? "block" : "hidden" // Handles the toggle state for small screens
         } md:flex`}
         role="menu"
@@ -102,7 +102,7 @@ function Navbar() {
             role="none"
           >
             <div>U.S. & CANADA</div>
-            <div className="bg-white w-full text-custom-blue py-2 flex justify-center">
+            <div className="bg-custom-blue-dark w-full text-white py-2 flex justify-center">
               <FaPhone className="mr-2" />
               <a href="tel:416.896.2495" role="menuitem">
                 416.896.2495
@@ -114,7 +114,7 @@ function Navbar() {
       </div>
       <button
         type="button"
-        className="text-black bg-accent-blue hover:bg-custom-blue hover:text-white font-bold rounded-lg text-sm px-4 py-2 text-center uppercase hidden md:block whitespace-nowrap"
+        className="text-neutral-900 justify-end ml-8 bg-custom-gold hover:bg-custom-blue hover:text-white font-bold rounded-lg text-sm px-4 py-2 text-center uppercase hidden md:block whitespace-nowrap"
       >
         Book Now
       </button>

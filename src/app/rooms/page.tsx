@@ -1,6 +1,5 @@
 import RoomCard from "../components/roomcard";
 import PageHeader from "../components/pageheader";
-import Splash from "../components/splash";
 
 const Rooms: React.FC = () => (
   <>
@@ -10,14 +9,6 @@ const Rooms: React.FC = () => (
         imageSrc="/img4.webp"
         alt={""}
         id={""}
-      />
-      <Splash
-        title="Seminar on the Seas"
-        imageSrc="/img5.webp"
-        alt="symphony on the seas"
-        date="04.13.2025 - 04.20.2025"
-        location="Miami Cococay Charlotte Amalie Philpsburg"
-        id="seminar"
       />
       <div className="py-6 bg-white">
         <div>
@@ -50,8 +41,8 @@ const Rooms: React.FC = () => (
             blurb="Imagine waking up every morning, opening your balcony door, and being greeted with views of a brand-new and breathtaking part of the world. Reserve a Royal Caribbean Balcony stateroom to enjoy spectacular vistas each and every day from the comfort and privacy of your own room. We believe the best way to explore the world is by sea &#45; and a Balcony stateroom is the perfect way to get a little bit closer to everything!"
           />
         </div>
-        <div className="mx-4 border my-6 border-custom-blue rounded-md">
-          <div className="text-custom-blue uppercase text-xl font-bold text-center p-4">
+        <div className="mx-4 border my-6 border-accent-blue rounded-md">
+          <div className="text-accent-blue uppercase text-xl font-bold text-center p-4">
             These packages include
           </div>
           <div className="text-neutral-600 pb-4 px-4">
