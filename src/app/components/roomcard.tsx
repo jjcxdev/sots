@@ -7,6 +7,7 @@ type RoomCardProps = {
   earlybird: number;
   blurb: string;
   id: string;
+  alt: string;
 };
 
 export const RoomCard: React.FC<RoomCardProps> = ({
@@ -16,6 +17,7 @@ export const RoomCard: React.FC<RoomCardProps> = ({
   earlybird,
   blurb,
   id,
+  alt,
 }) => {
   return (
     <div className="py-6 bg-white flex-col flex">

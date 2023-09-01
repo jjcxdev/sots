@@ -25,13 +25,13 @@ const CourseCards: React.FC = () => (
           The “Seminar on the Seas” cruise is designed to provide advanced
           training in business, marketing and managing your business to become
           more profitable and efficient. Also, this cruise offers a chance to
-          network with some the industry's top instructors, integrators and
+          network with some the industry&apos;s top instructors, integrators and
           manufacturers. This cruise is designed to deliver crucial industry
           knowledge and connections. Choose from multiple classes over the three
           days of training.
         </Card>
         <Card title="Planned Topics" id="topics-heading">
-          <ul className="custom-list ml-4">
+          <ul className="custom-list ml-4" aria-label="Planned course topics">
             <li className="pb-2">
               Real live challenges of selecting the right equipment for the
               application.
@@ -51,18 +51,18 @@ const CourseCards: React.FC = () => (
               management.
             </li>
             <li className="pb-2">
-              Where are we heading? A look down the CE path.{" "}
+              Where are we heading? A look down the CE path.
             </li>
             <li className="pb-2">
-              Lighting. Why it&#39;s so important. How to use tunable and other
+              Lighting. Why it&apos;s so important. How to use tunable and other
               LED lights.
             </li>
             <li className="pb-2">
               Social Marketing, what is it and how to take advantage of it.
             </li>
             <li className="pb-2">
-              Lessons on real world networking needs for today&#39;s integration
-              of electronic systems.
+              Lessons on real world networking needs for today&apos;s
+              integration of electronic systems.
             </li>
             <li className="pb-2">
               Get it done right! Learn how to correctly use your distributors to
@@ -78,7 +78,7 @@ const CourseCards: React.FC = () => (
           </ul>
         </Card>
         <div title="Other Highlights" id="highlights-heading">
-          <ul className="custom-list">
+          <ul className="custom-list" aria-label="Other event highlights">
             <li className="pb-2">
               Welcome reception in the evening after departing Tampa.
             </li>

@@ -11,11 +11,16 @@ const FAQPage: React.FC = () => (
     />
     <div className="py-6">
       <div role="region" aria-labelledby="questions-heading">
+        <div role="article" aria-labelledby="payment-heading" />
+
         <Card title="Payments" id="payment-heading">
           Deposits are due at the time of booking:
           <br />
           <br />
-          <ul className="list-inside list-disc">
+          <ul
+            className="list-inside list-disc"
+            aria-label="Deposit amounts per room type"
+          >
             <li>Interior/Ocean view $400 per person</li>
             <li>Balcony $500 per person</li>
             <li>Suites $600 per person</li>
@@ -29,6 +34,7 @@ const FAQPage: React.FC = () => (
           Included for each guest are port fees, taxes, gratuities & deluxe
           drink package.
         </Card>
+        <div role="article" aria-labelledby="cancellations-heading" />
         <Card title="Cancellations / Changes" id="cancellations-heading">
           All payments made for a Reservation are non-refundable at the time of
           payment. By purchasing Travel Insurance, Guests can offset this risk.
@@ -44,6 +50,7 @@ const FAQPage: React.FC = () => (
           Changes made to an existing reservation within 120 days of the
           embarkation date are subject to a $150 manifest change fee.
         </Card>
+        <div role="article" aria-labelledby="insurance-heading" />
         <Card title="Travel Insurance" id="insurance-heading">
           Seminar on the Seas strongly encourages the purchase of Travel
           Insurance. All payments made for a Reservation are non-refundable at
@@ -55,6 +62,7 @@ const FAQPage: React.FC = () => (
           Travel Insurance must be purchased within 14 days of the payment of
           your deposit.
         </Card>
+        <div role="article" aria-labelledby="documents-heading" />
         <Card title="Travel Documentation" id="documents-heading">
           Seminar on the Seas strongly recommend that all guests travel with a
           valid passport with at least six (6) months validity during their
@@ -65,7 +73,7 @@ const FAQPage: React.FC = () => (
           their scheduled embarkation in a U.S. port; guests entering the U.S.
           at the end of their cruise; and guests needing to fly to the U.S.
           before their cruise ends because of medical, family, personal or
-          business emergencies, missing a ship&#44;s departure from a port of
+          business emergencies, missing a ship&apos;s departure from a port of
           call, involuntary disembarkation from a ship due to misconduct, or
           other reasons.
           <br />

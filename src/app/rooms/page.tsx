@@ -7,8 +7,8 @@ const Rooms: React.FC = () => (
       <PageHeader
         title="Rooms / Pricing"
         imageSrc="/img4.webp"
-        alt={""}
-        id={""}
+        alt="View of rooms on the ship"
+        id="Rooms / Pricing"
       />
       <div className="py-6 bg-white">
         <div>
@@ -17,7 +17,8 @@ const Rooms: React.FC = () => (
             imageSrc="/img6.webp"
             price={2125}
             earlybird={1995}
-            id=""
+            alt="Interior Stateroom Image"
+            id="Interior Stateroom"
             blurb="After an action-packed schedule of meetings, activities, and exploring the world, you need to relax. At the end of a busy day, retreat to your Interior stateroom and unwind in comfort! These well-appointed staterooms offer everything you need for a comfortable voyage. Aboard our Voyager-class ships, opt for a Promenade stateroom, offering all the features of a standard room plus a bowed window overlooking the Promenade."
           />
         </div>
@@ -27,8 +28,9 @@ const Rooms: React.FC = () => (
             imageSrc="/img7.webp"
             price={2295}
             earlybird={2175}
-            id=""
-            blurb="As your Royal Caribbean cruise sails to some of the world&#39;s most stunning destinations, you don&#39;t want to miss a single moment. In an Ocean View stateroom, you&#39;ll be treated to a beautiful new view every day! Spend the day exploring the world, then retreat to your comfortable, well-appointed stateroom and don&#39;t miss a thing."
+            alt="Ocean View Stateroom Image"
+            id="Ocean View Stateroom"
+            blurb="As your Royal Caribbean cruise sails to some of the world's most stunning destinations, you don't want to miss a single moment. In an Ocean View stateroom, you'll be treated to a beautiful new view every day! Spend the day exploring the world, then retreat to your comfortable, well-appointed stateroom and don't miss a thing."
           />
         </div>
         <div>
@@ -37,7 +39,8 @@ const Rooms: React.FC = () => (
             imageSrc="/img8.webp"
             price={2735}
             earlybird={2895}
-            id=""
+            alt="Balcony Stateroom Image"
+            id="Balcony Stateroom"
             blurb="Imagine waking up every morning, opening your balcony door, and being greeted with views of a brand-new and breathtaking part of the world. Reserve a Royal Caribbean Balcony stateroom to enjoy spectacular vistas each and every day from the comfort and privacy of your own room. We believe the best way to explore the world is by sea &#45; and a Balcony stateroom is the perfect way to get a little bit closer to everything!"
           />
         </div>
@@ -46,7 +49,7 @@ const Rooms: React.FC = () => (
             These packages include
           </div>
           <div className="text-neutral-600 pb-4 px-4">
-            <ul className="custom-list">
+            <ul className="custom-list" aria-label="Packages Include">
               <li>All taxes</li>
               <li>Port Entry fees</li>
               <li>Mandatory gratuities</li>

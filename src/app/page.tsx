@@ -18,7 +18,10 @@ export default function Header() {
         />
       </div>
       <div className="p-4 my-24 text-center bg-custom-blue-dark">
-        <h1 className="uppercase text-3xl mt-10 font-extrabold">
+        <h1
+          id="home-heading"
+          className="uppercase text-3xl mt-10 font-extrabold"
+        >
           Seminar on the Seas
         </h1>
         <div className="uppercase text-2xl font-extrabold">
@@ -35,10 +38,13 @@ export default function Header() {
         </div>
 
         <div className="py-2 uppercase text-lg font-extrabold text-[#D7A770]">
-          Sailing on Royal Caribbean's Symphony of the Seas
+          Sailing on Royal Caribbean&apos;s Symphony of the Seas
         </div>
         <div>
-          <Link href="https://www.royalcaribbean.com/cruise-ships/symphony-of-the-seas">
+          <Link
+            href="https://www.royalcaribbean.com/cruise-ships/symphony-of-the-seas"
+            aria-label="Royal Caribbean's Symphony of the Seas"
+          >
             <button className="bg-white uppercase text-lg font-bold text-neutral-900 px-8 py-3 m-10">
               Come Aboard
             </button>
@@ -83,8 +89,8 @@ export default function Header() {
         and design. He was named one of the “50 Most Vital Influencers” by
         CustomRetailer magazine and inducted as Fellow of the CEDIA trade
         association. In 2013, CEPro Magazine named him one of the “Top 20 Most
-        Influential People of the Past 20 Years.” He’s a frequent lecturer at
-        industry conferences such as{" "}
+        Influential People of the Past 20 Years.” He&apos;s a frequent lecturer
+        at industry conferences such as{" "}
         <Link className="text-[#26577D] font-bold" href="https://aes2.org/">
           AES
         </Link>{" "}
@@ -96,15 +102,9 @@ export default function Header() {
       </p>
       <div className="hidden" role="main" aria-labelledby="anthony-grimani">
         <Trainer
-          title="Anthony Grimani is a highly respected expert in home theater acoustics and design. He was named one of the “50 Most Vital Influencers” by CustomRetailer magazine and inducted as Fellow of the CEDIA trade association. In 2013, CEPro Magazine named him one of the “Top 20 Most Influential People of the Past 20 Years.”
-          His more than 25 years of industry experience include executive positions at Dolby and Lucasfilm THX.
-          At Dolby, Anthony was intricately involved in the development of surround sound for consumer applications. During his nine-year tenure at THX, he managed the THX consumer licensing program and the technology development program, setting the direction for consumer and professional Audio/Video businesses.
-          Anthony developed the Home THX program, the THX PM3 program, and invented the revolutionary Surround EX 6.1 channel audio format pioneered in Star Wars, the Phantom Menace.
-          He’s a frequent lecturer at industry conferences such as AES (Audio Engineering Society) and CEDIA (Custom Electronics Design and Installation Association) and earned the CEDIA Top Instructor award.
-          Anthony holds six patents in the area of audio and acoustics.  He received his bachelor’s degree in Electrical Engineering from the University of California at Davis.
-          He’s been passionate about music and technology since he was a young man. He studied at the Music Conservatory in Paris and tinkered with gear lying around his father’s amateur audio workshop.
-          Born in Asia and raised in Europe, Anthony speaks four languages fluently. He resides in Marin County with his wife.
-          "
+          title={
+            "Anthony Grimani is a highly respected expert in home theater acoustics and design. He was named one of the “50 Most Vital Influencers” by CustomRetailer magazine and inducted as Fellow of the CEDIA trade association. In 2013, CEPro Magazine named him one of the “Top 20 Most Influential People of the Past 20 Years.”\nHis more than 25 years of industry experience include executive positions at Dolby and Lucasfilm THX.\nAt Dolby, Anthony was intricately involved in the development of surround sound for consumer applications. During his nine-year tenure at THX, he managed the THX consumer licensing program and the technology development program, setting the direction for consumer and professional Audio/Video businesses.\nAnthony developed the Home THX program, the THX PM3 program, and invented the revolutionary Surround EX 6.1 channel audio format pioneered in Star Wars, the Phantom Menace.\nHe's a frequent lecturer at industry conferences such as AES (Audio Engineering Society) and CEDIA (Custom Electronics Design and Installation Association) and earned the CEDIA Top Instructor award.\nAnthony holds six patents in the area of audio and acoustics.  He received his bachelor's degree in Electrical Engineering from the University of California at Davis.\nHe's been passionate about music and technology since he was a young man. He studied at the Music Conservatory in Paris and tinkered with gear lying around his father's amateur audio workshop.\nBorn in Asia and raised in Europe, Anthony speaks four languages fluently. He resides in Marin County with his wife."
+          }
           imageSrc="/anthony.webp"
           alt="Anthony Grimani"
           id="anthony-grimani"
