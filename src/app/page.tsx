@@ -17,27 +17,43 @@ export default function Header() {
           id="seminar"
         />
       </div>
-      <div className="p-4 my-24 text-center bg-custom-blue-dark">
+      <div
+        className="p-8 text-center relative z-50"
+        style={{ position: "relative" }}
+      >
+        <div
+          className="overlay"
+          style={{
+            content: '""',
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            backgroundColor: "rgba(0, 0, 0, 0.5)",
+            zIndex: 1,
+          }}
+        ></div>
         <h1
           id="home-heading"
-          className="uppercase text-3xl mt-10 font-extrabold"
+          className="uppercase text-3xl mt-10 font-extrabold relative z-50"
         >
           Seminar on the Seas
         </h1>
-        <div className="uppercase text-2xl font-extrabold">
+        <div className="uppercase text-2xl font-extrabold relative  z-50">
           Welcome to a new style of training
         </div>
-        <div className="py-2 text-3xl font-extrabold text-[#43C6FE]">
+        <div className="py-2 text-3xl font-extrabold text-[#43C6FE] relative  z-40">
           04.13.2025 - 04.20.2025
         </div>
-        <div className="container text-center flex flex-row justify-center flex-wrap font-extrabold text-xl py-2 whitespace-normal uppercase">
+        <div className="container text-center flex flex-row justify-center flex-wrap font-extrabold text-lg py-2 whitespace-normal uppercase relative  z-30">
           <span className="item whitespace-nowrap">Miami</span>
           <span className="item whitespace-nowrap">Cococay</span>
           <span className="item whitespace-nowrap">Charlotte Amalie</span>
           <span className="whitespace-nowrap">Philipsburg</span>
         </div>
 
-        <div className="py-2 uppercase text-lg font-extrabold text-[#D7A770]">
+        <div className="py-2 uppercase text-lg font-extrabold text-[#D7A770] relative  z-20">
           Sailing on Royal Caribbean&apos;s Symphony of the Seas
         </div>
         <div>
@@ -45,25 +61,21 @@ export default function Header() {
             href="https://www.royalcaribbean.com/cruise-ships/symphony-of-the-seas"
             aria-label="Royal Caribbean's Symphony of the Seas"
           >
-            <button className="bg-white uppercase text-lg font-bold text-neutral-900 px-8 py-3 m-10">
+            <button className="bg-white z-10 uppercase text-lg relative  font-bold text-neutral-900 px-8 py-3 m-10">
               Come Aboard
             </button>
           </Link>
         </div>
+
+        <Image
+          src="/img3.webp"
+          alt="symphony of the seas ship"
+          layout="fill"
+          objectFit="cover"
+          className="z-0"
+        />
       </div>
       <div>
-        <div
-          className="relative overflow-hidden w-full"
-          style={{ height: "325px" }}
-        >
-          <Image
-            src="/img3.webp"
-            alt="symphony of the seas ship"
-            layout="fill"
-            objectFit="cover"
-            className="absolute"
-          />
-        </div>
         <Info />
       </div>
       <h2 className="pt-2 uppercase text-center bg-white text-custom-gold text-3xl font-bold">
