@@ -27,8 +27,8 @@ export default function Footer() {
             <a className="text-[#D7A770]" href="mailto:rhamilton@dt.com">
               rhamilton@dt.com
             </a>
-            <a href="tel:416.896.2495" className="ml-2">
-              1-800-263-5575
+            <a href="tel:1.800.263.5575" className="ml-2">
+              1.800.263.5575
             </a>
             <br />
             <p className="font-extrabold pt-4">Blair Robin</p>

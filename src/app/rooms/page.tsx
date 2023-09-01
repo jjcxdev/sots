@@ -37,8 +37,8 @@ const Rooms: React.FC = () => (
           <RoomCard
             title="Balcony Stateroom"
             imageSrc="/img8.webp"
-            price={2735}
-            earlybird={2895}
+            price={2895}
+            earlybird={2735}
             alt="Balcony Stateroom Image"
             id="Balcony Stateroom"
             blurb="Imagine waking up every morning, opening your balcony door, and being greeted with views of a brand-new and breathtaking part of the world. Reserve a Royal Caribbean Balcony stateroom to enjoy spectacular vistas each and every day from the comfort and privacy of your own room. We believe the best way to explore the world is by sea &#45; and a Balcony stateroom is the perfect way to get a little bit closer to everything!"

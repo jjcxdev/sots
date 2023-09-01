@@ -77,8 +77,8 @@ const CourseCards: React.FC = () => (
             </li>
           </ul>
         </Card>
-        <div title="Other Highlights" id="highlights-heading">
-          <ul className="custom-list" aria-label="Other event highlights">
+        <Card title="Other Highlights" id="highlights-heading">
+          <ul className="custom-list " aria-label="Other event highlights">
             <li className="pb-2">
               Welcome reception in the evening after departing Tampa.
             </li>
@@ -87,7 +87,7 @@ const CourseCards: React.FC = () => (
               entertainment areas of the ship.
             </li>
           </ul>
-        </div>
+        </Card>
       </div>
     </div>
   </div>

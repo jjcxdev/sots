@@ -58,7 +58,7 @@ export const RoomCard: React.FC<RoomCardProps> = ({
               <div className="pb-4 bg-custom-blue-dark items-center text-yellow-400 text-2xl text-center font-extrabold">
                 ${earlybird.toLocaleString()}
                 <p className="text-base">
-                  Early bird discount untl August 31, 2024
+                  Early bird discount until August 31, 2024
                 </p>
               </div>
             </div>

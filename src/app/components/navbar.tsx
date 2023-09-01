@@ -102,9 +102,9 @@ function Navbar() {
             role="none"
           >
             <div>U.S. & CANADA</div>
-            <div className="bg-custom-blue-dark w-full text-white py-2 flex justify-center">
-              <FaPhone className="mr-2" />
-              <a href="tel:416.896.2495" role="menuitem">
+            <div className="bg-custom-blue-dark w-full text-white py-2 flex justify-center tel:416.896.2495">
+              <FaPhone className="mr-2 flex align-middle" />
+              <a href="" role="menuitem">
                 416.896.2495
               </a>
             </div>
