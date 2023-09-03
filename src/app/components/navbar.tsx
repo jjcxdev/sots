@@ -11,7 +11,7 @@ function Navbar() {
   const closeNavbar = () => setIsOpen(false);
 
   return (
-    <nav className="flex py-2 px-4 items-center bg-white justify-between flex-wrap md:flex-nowrap">
+    <nav className="flex py-2 md:px-10 px-4 lg:px-24 items-center bg-white justify-between flex-wrap md:flex-nowrap">
       <div className="flex items-center mr-14 flex-shrink-0 text-white w-auto h-auto">
         <Link href="/">
           <Image
@@ -24,33 +24,35 @@ function Navbar() {
           />
         </Link>
       </div>
-      <button
-        type="button"
-        className="text-neutral-900 justify-end ml-8 bg-custom-gold hover:bg-custom-blue hover:text-white font-bold rounded-lg text-sm px-4 py-2 text-center uppercase sm:hidden md:hidden whitespace-nowrap"
-      >
-        Book Now
-      </button>
-      <div className="md:hidden">
+      <div className="flex flex-row">
         <button
-          onClick={() => setIsOpen(!isOpen)}
-          aria-label={isOpen ? "Close menu" : "Open menu"}
-          className="flex items-center px-3 py-2 rounded text-accent-blue hover:text-black-400"
+          type="button"
+          className="text-neutral-900 justify-end mr-8 bg-custom-gold hover:bg-custom-blue hover:text-white font-bold rounded-lg text-sm px-4 py-2 text-center uppercase md:hidden whitespace-nowrap"
         >
-          <svg
-            className={`fill-current h-5 w-5 ${isOpen ? "hidden" : "block"}`}
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
-          <svg
-            className={`fill-current h-5 w-5 ${isOpen ? "block" : "hidden"}`}
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" />
-          </svg>
+          Book Now
         </button>
+        <div className="md:hidden">
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            aria-label={isOpen ? "Close menu" : "Open menu"}
+            className="flex items-center px-3 py-2 rounded text-accent-blue hover:text-black-400"
+          >
+            <svg
+              className={`fill-current h-5 w-5 ${isOpen ? "hidden" : "block"}`}
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+            <svg
+              className={`fill-current h-5 w-5 ${isOpen ? "block" : "hidden"}`}
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" />
+            </svg>
+          </button>
+        </div>
       </div>
       <div
         className={`w-full flex flex-col text-custom-blue-dark md:pr-6flex-grow ${

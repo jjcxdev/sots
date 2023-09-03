@@ -14,7 +14,6 @@ const Splash: React.FC<SplashProps> = ({ title, imageSrc }) => {
     <div className="relative h-fit w-full">
       <div className="absolute top-0 left-0 w-full h-full z-0">
         <Image
-          title={title}
           src={imageSrc}
           alt={title}
           className="object-cover"
