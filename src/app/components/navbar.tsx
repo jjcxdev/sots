@@ -12,12 +12,12 @@ function Navbar() {
 
   return (
     <nav className="flex py-2 md:px-10 px-4 lg:px-24 items-center bg-white justify-between flex-wrap md:flex-nowrap">
-      <div className="flex items-center mr-14 flex-shrink-0 text-white w-auto h-auto">
+      <div className="flex items-center mr-14 flex-shrink-0 text-white w-[80px] h-auto">
         <Link href="/">
           <Image
             src="/sotsLogo.webp"
-            width="60"
-            height="60"
+            width="80"
+            height="80"
             className=""
             alt="Seminar On The Seas Logo"
             style={{ width: "auto" }}
