@@ -11,11 +11,10 @@ const CourseCards: React.FC = () => (
     />
 
     <div className="bg-white" role="region" aria-labelledby="questions-heading">
-      <div className="py-6">
+      <div className="py-10 lg:py-24 lg:mx-24 md:mx-10 mx-4 flex gap-10 flex-col">
         <Card
           title="Seminar on the Seas Custom Integrator Training"
-          id="seminar-heading"
-        >
+          id="seminar-heading">
           Choose from 36 hours of advanced courses over the three days the ship
           is at sea on the cruise. “Seminar on the Seas” is a key educational
           and networking event designed to inform and connect with some of the

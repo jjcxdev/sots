@@ -21,7 +21,7 @@ export const RoomCard: React.FC<RoomCardProps> = ({
 }) => {
   return (
     <div className="py-6 bg-white flex-col flex">
-      <div className="md:w-5/6 lg:w-3/4 m-auto mt-4 w-full px-4">
+      <div className="md:mx-10 lg:mx-24 m-auto mt-4 w-full ">
         <div
           className="relative  overflow-hidden w-full"
           style={{ height: "325px" }}>
