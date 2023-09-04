@@ -70,7 +70,15 @@ export default function Header() {
           className="z-0"
         />
       </div>
-
+      <div className="lg:hidden w-full">
+        <Image
+          src="/symph.webp"
+          alt="Symphony of the Seas ship"
+          className="w-full"
+          width="500"
+          height="100"
+        />
+      </div>
       <div>
         <Info />
       </div>
@@ -92,7 +100,7 @@ export default function Header() {
       </div>
 
       <div className="lg:hidden">
-        <h2 className="pt-2 px-4 uppercase text-center bg-white text-custom-gold text-3xl font-bold">
+        <h2 className="pt-2 px-4 uppercase text-center bg-white text-custom-gold text-2xl font-bold">
           VIP Keynote Speaker & Instructor
         </h2>
         <div className="pb-2 uppercase text-center bg-white text-custom-blue-dark text-2xl font-bold">
