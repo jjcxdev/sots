@@ -1,7 +1,7 @@
 export default function Info() {
   return (
     <>
-      <div className="py-12 px-4 bg-white text-neutral-600">
+      <div className="py-12 lg:py-24 px-4 md:px-10 lg:px-24 lg:text-2xl bg-white text-neutral-600">
         We are pleased to announce that the 1st annual Seminar on the Seas
         Custom Integration Training Course will take place in April of 2025
         aboard Royal Caribbean&apos;s Symphony of The Seas®.

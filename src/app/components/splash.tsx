@@ -1,16 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 
-type SplashProps = {
-  title: string;
-  imageSrc: string;
-  alt: string;
-  date: string;
-  location: string;
-  id: string;
-};
-
-const Splash: React.FC<SplashProps> = ({ title, imageSrc }) => {
+export default function Splash() {
   return (
     <div className="bg-transparent py-10 mx-24">
       <div className="relative z-50">
@@ -47,6 +37,4 @@ const Splash: React.FC<SplashProps> = ({ title, imageSrc }) => {
       </div>
     </div>
   );
-};
-
-export default Splash;
+}

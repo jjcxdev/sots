@@ -32,6 +32,9 @@ const config: Config = {
         '.diagonal-cut': {
           clipPath: 'polygon(0 0, 50% 0, 30% 100%, 0% 100%)',
         },
+        '.diagonal-cut-2': {
+          clipPath: 'polygon(0 0, 50% 0, 70% 100%, 0% 100%)',
+        },
       };
       addUtilities(newUtilities);
     }),
