@@ -18,9 +18,8 @@ const FAQPage: React.FC = () => (
           <br />
           <br />
           <ul
-            className="list-inside list-disc"
-            aria-label="Deposit amounts per room type"
-          >
+            className="custom-list"
+            aria-label="Deposit amounts per room type">
             <li>Interior/Ocean view $400 per person</li>
             <li>Balcony $500 per person</li>
             <li>Suites $600 per person</li>

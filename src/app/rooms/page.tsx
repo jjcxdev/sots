@@ -1,5 +1,6 @@
 import RoomCard from "../components/roomcard";
 import PageHeader from "../components/pageheader";
+import Link from "next/link";
 
 const Rooms: React.FC = () => (
   <>
@@ -55,8 +56,12 @@ const Rooms: React.FC = () => (
                 <ul className="custom-list">
                   <li>Round trip cruise from Miami, FL </li>
                   <li>
-                    Free Royal Caribbean Deluxe Beverage Package ($550+ value),
-                    find out more
+                    Free Royal Caribbean Deluxe Beverage Package ($550+ value){" "}
+                    <Link
+                      className="text-custom-gold uppercase font-bold hover:bg-custom-gold transition duration-300 hover:text-white"
+                      href="https://www.royalcaribbean.com/content/dam/royal/resources/pdf/beverage-packages/deluxe-beverage-packages-cruises.pdf">
+                      find out more
+                    </Link>
                   </li>
                   <li>
                     As part of the Included Dining experience, unlimited
@@ -77,10 +82,12 @@ const Rooms: React.FC = () => (
                     dinner and snacks in the Windjammer Café and
                     breakfast/brunch and dinner in the Main Dining Room as well
                     as food in other “Included” dining venues, i.e. Café
-                    Promenade, solarium Bistro, Boardwalk Dog House).Recreation
-                    facilities, such as Fitness Center, Pools, Hot Tubs, Lazer
-                    Tag, FlowRider®, Rock Climbing Wall, Basketball Court,
-                    Jogging Track
+                    Promenade, solarium Bistro, Boardwalk Dog House).
+                  </li>
+                  <li>
+                    Recreation facilities, such as Fitness Center, Pools, Hot
+                    Tubs, Lazer Tag, FlowRider®, Rock Climbing Wall, Basketball
+                    Court, Jogging Track
                   </li>
                   <li>In-room TV and movies (excluding pay-per-view movies)</li>
                   <li>Full-service room cleaning</li>

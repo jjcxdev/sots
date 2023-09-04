@@ -12,15 +12,14 @@ export default function Header() {
           title="Seminar on the Seas"
           imageSrc="/img5.webp"
           alt="symphony on the seas"
-          date="04.13.2025 - 04.20.2025"
+          date="April 13 - 20, 2025"
           location="Miami Cococay Charlotte Amalie Philpsburg"
           id="seminar"
         />
       </div>
       <div
         className="p-8 text-center relative z-50"
-        style={{ position: "relative" }}
-      >
+        style={{ position: "relative" }}>
         <div
           className="overlay"
           style={{
@@ -32,19 +31,17 @@ export default function Header() {
             height: "100%",
             backgroundColor: "rgba(0, 0, 0, 0.5)",
             zIndex: 1,
-          }}
-        ></div>
+          }}></div>
         <h1
           id="home-heading"
-          className="uppercase text-3xl mt-10 font-extrabold relative z-50"
-        >
+          className="uppercase text-3xl mt-10 font-extrabold relative z-50">
           Seminar on the Seas
         </h1>
         <div className="uppercase text-2xl font-extrabold relative  z-50">
           Welcome to a new style of training
         </div>
         <div className="py-2 text-3xl font-extrabold text-[#43C6FE] relative  z-40">
-          04.13.2025 - 04.20.2025
+          April 13 - 20, 2025
         </div>
         <div className="container text-center flex flex-row justify-center flex-wrap font-extrabold text-lg py-2 whitespace-normal uppercase relative  z-30">
           <span className="item whitespace-nowrap">Miami</span>
@@ -59,8 +56,7 @@ export default function Header() {
         <div>
           <Link
             href="https://www.royalcaribbean.com/cruise-ships/symphony-of-the-seas"
-            aria-label="Royal Caribbean's Symphony of the Seas"
-          >
+            aria-label="Royal Caribbean's Symphony of the Seas">
             <button className="bg-white z-10 uppercase text-lg relative  font-bold text-neutral-900 px-8 py-3 m-10">
               Come Aboard
             </button>
@@ -86,8 +82,7 @@ export default function Header() {
       </div>
       <div
         className="relative overflow-hidden w-full"
-        style={{ height: "325px" }}
-      >
+        style={{ height: "325px" }}>
         <Image
           src="/anthony.webp"
           alt="anthony grimani"
@@ -103,11 +98,15 @@ export default function Header() {
         association. In 2013, CEPro Magazine named him one of the “Top 20 Most
         Influential People of the Past 20 Years.” He&apos;s a frequent lecturer
         at industry conferences such as{" "}
-        <Link className="text-[#26577D] font-bold" href="https://aes2.org/">
+        <Link
+          className="text-custom-gold uppercase font-bold hover:bg-custom-gold transition duration-300 hover:text-white"
+          href="https://aes2.org/">
           AES
         </Link>{" "}
         and{" "}
-        <Link className="text-[#26577D] font-bold" href="https://cedia.net/">
+        <Link
+          className="text-custom-gold uppercase font-bold hover:bg-custom-gold transition duration-300 hover:text-white"
+          href="https://cedia.net/">
           CEDIA
         </Link>{" "}
         and earned the CEDIA Top Instructor award.
