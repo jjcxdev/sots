@@ -11,7 +11,12 @@ const Rooms: React.FC = () => (
         alt="View of rooms on the ship"
         id="Rooms / Pricing"
       />
-      <div className="py-6 bg-white">
+      <div>
+        <div className="bg-custom-gold lg:text-3xl p-4 px-9 text-center uppercase font-extrabold text-xl border border-custom-blue">
+          All prices are per person
+        </div>
+      </div>
+      <div className="py-6 bg-white mx-4 md:mx-10 lg:mx-24">
         <div>
           <RoomCard
             title="Interior Stateroom"
@@ -46,12 +51,12 @@ const Rooms: React.FC = () => (
           />
         </div>
 
-        <div className="flex px-4 gap-4 md:w-5/6 lg:w-3/4 m-auto flex-col lg:flex-row">
+        <div className="flex gap-4 m-auto flex-col lg:flex-row">
           <div className="mb-4 lg:w-1/2  ">
-            <div className="bg-accent-blue p-4 uppercase font-extrabold text-xl border border-custom-blue">
+            <div className="bg-accent-blue lg:text-3xl p-4 px-9 text-center uppercase font-extrabold text-xl border border-custom-blue">
               Your Price Includes
             </div>
-            <div className="border  text-neutral-600 text-base border-custom-blue">
+            <div className="border  text-neutral-600 text-base lg:text-2xl border-custom-blue">
               <div className="p-4">
                 <ul className="custom-list">
                   <li>Round trip cruise from Miami, FL </li>
@@ -97,10 +102,10 @@ const Rooms: React.FC = () => (
           </div>
 
           <div className="mb-4 lg:w-1/2 ">
-            <div className="bg-accent-blue p-4 uppercase font-extrabold text-xl border border-custom-blue">
+            <div className="bg-accent-blue p-4 px-9 uppercase lg:text-3xl text-center font-extrabold text-xl border border-custom-blue">
               Your Price Does Not Include
             </div>
-            <div className="border  text-neutral-600 text-base border-custom-blue">
+            <div className="border  text-neutral-600 lg:text-2xl text-base border-custom-blue">
               <div className="p-4">
                 <ul className="custom-list">
                   <li>

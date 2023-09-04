@@ -21,7 +21,7 @@ export const RoomCard: React.FC<RoomCardProps> = ({
 }) => {
   return (
     <div className="py-6 bg-white flex-col flex">
-      <div className="md:mx-10 lg:mx-24 m-auto mt-4 w-full ">
+      <div className="m-auto mt-4 w-full ">
         <div
           className="relative  overflow-hidden w-full"
           style={{ height: "325px" }}>
@@ -37,15 +37,15 @@ export const RoomCard: React.FC<RoomCardProps> = ({
           {" "}
           {/* Added px-4 here */}
           <div className="mb-4 ">
-            <div className="bg-accent-blue p-4 uppercase font-extrabold text-xl border border-custom-blue">
+            <div className="bg-accent-blue p-4 lg:text-3xl  uppercase font-extrabold text-xl border border-custom-blue">
               {title}
             </div>
-            <div className="border  text-neutral-600 text-base border-custom-blue">
+            <div className="border lg:text-2xl  text-neutral-600 text-base border-custom-blue">
               <div className="p-4">{blurb}</div>
 
               <div className="w-full flex flex-col"></div>
               <div
-                className="pt-4 bg-custom-blue-dark items-center text-white text-4xl text-center font-extrabold"
+                className="pt-4 bg-custom-blue-dark items-center text-white text-4xl lg:text-6xl text-center font-extrabold"
                 style={{
                   textDecoration: "line-through",
                   textDecorationColor: "red",
@@ -53,9 +53,9 @@ export const RoomCard: React.FC<RoomCardProps> = ({
                 ${price.toLocaleString()}
               </div>
 
-              <div className="pb-4 bg-custom-blue-dark items-center text-yellow-400 text-2xl text-center font-extrabold">
+              <div className="pb-4 bg-custom-blue-dark items-center text-yellow-400 text-2xl lg:text-5xl text-center font-extrabold">
                 ${earlybird.toLocaleString()}
-                <p className="text-base">
+                <p className="text-base lg:text-3xl">
                   Early bird discount until August 31, 2024
                 </p>
               </div>
