@@ -35,7 +35,7 @@ export default function Header() {
           className="uppercase text-4xl mt-10 font-extrabold relative z-50">
           Seminar on the Seas
         </h1>
-        <div className="uppercase text-2xl font-extrabold relative  z-50">
+        <div className="uppercase text-2xl w-1/2 font-extrabold relative  z-50">
           Welcome to a new style of training
         </div>
         <div className="py-2 text-3xl font-extrabold text-[#43C6FE] relative  z-40">
@@ -55,7 +55,7 @@ export default function Header() {
           <Link
             href="https://www.royalcaribbean.com/cruise-ships/symphony-of-the-seas"
             aria-label="Royal Caribbean's Symphony of the Seas">
-            <button className="bg-white z-10 uppercase text-lg relative  font-bold text-neutral-900 px-8 py-3 my-10">
+            <button className="bg-white z-10 uppercase text-lg relative hover:bg-custom-gold hover:text-white font-bold text-neutral-900 px-8 py-3 my-10">
               Come Aboard
             </button>
           </Link>

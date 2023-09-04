@@ -9,7 +9,7 @@ export default function Splash() {
           className="uppercase text-6xl mt-10 font-extrabold">
           Seminar on the Seas
         </h1>
-        <div className="uppercase text-5xl font-extrabold">
+        <div className="uppercase text-5xl w-1/2 font-extrabold">
           Welcome to a new style of training
         </div>
         <div className="py-2 text-4xl font-extrabold text-[#43C6FE]">
@@ -29,7 +29,7 @@ export default function Splash() {
           <Link
             href="https://www.royalcaribbean.com/cruise-ships/symphony-of-the-seas"
             aria-label="Royal Caribbean's Symphony of the Seas">
-            <button className="bg-white uppercase text-lg font-bold text-neutral-900 px-8 py-3 my-10">
+            <button className="bg-white uppercase hover:bg-custom-gold hover:text-white  text-lg font-bold text-neutral-900 px-8 py-3 my-10">
               Come Aboard
             </button>
           </Link>
