@@ -104,13 +104,13 @@ export default function Header() {
         Influential People of the Past 20 Years.” He&apos;s a frequent lecturer
         at industry conferences such as{" "}
         <Link
-          className="text-custom-gold uppercase font-bold hover:bg-custom-gold transition duration-300 hover:text-white"
+          className="text-custom-gold uppercase font-bold hover:underline hover:text-custom-gold"
           href="https://aes2.org/">
           AES
         </Link>{" "}
         and{" "}
         <Link
-          className="text-custom-gold uppercase font-bold hover:bg-custom-gold transition duration-300 hover:text-white"
+          className="text-custom-gold uppercase font-bold hover:underline hover:text-custom-gold"
           href="https://cedia.net/">
           CEDIA
         </Link>{" "}
