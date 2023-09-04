@@ -70,7 +70,7 @@ function Navbar() {
               href="/course"
               className="block py-2 md:px-4 text-white-200 hover:underline hover:text-custom-gold"
               role="menuitem">
-              Course
+              Courses
             </Link>
           </div>
           <div onClick={closeNavbar} role="none">
