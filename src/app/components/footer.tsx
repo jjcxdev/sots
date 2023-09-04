@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <>
-      <footer className="flex flex-col py-10 items-center justify-center flex-wrap">
+      <footer className="flex bg-custom-blue-dark flex-col py-10 items-center justify-center flex-wrap">
         <div className="flex items-center flex-shrink-0 text-white ">
           <Image
             src="/sotsLogo.webp"

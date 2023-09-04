@@ -9,8 +9,11 @@ const FAQPage: React.FC = () => (
       alt="View from inside the ship"
       id="FAQ-heading"
     />
-    <div className="py-6">
-      <div role="region" aria-labelledby="questions-heading">
+    <div className="py-6 mx-4 md:mx-10 lg:mx-24">
+      <div
+        role="region"
+        aria-labelledby="questions-heading"
+        className="flex gap-8 flex-col">
         <div role="article" aria-labelledby="payment-heading" />
 
         <Card title="Payments" id="payment-heading">
