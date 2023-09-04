@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 type SplashProps = {
   title: string;
@@ -11,20 +12,38 @@ type SplashProps = {
 
 const Splash: React.FC<SplashProps> = ({ title, imageSrc }) => {
   return (
-    <div className="relative h-fit w-full">
-      <div className="absolute top-0 left-0 w-full h-full z-0">
-        <Image
-          src={imageSrc}
-          alt={title}
-          className="object-cover"
-          fill={true}
-          priority
-        />
-      </div>
-      <div className=" w-3/5 h-full bg-accent-blue text-white flex items-end z-10 diagonal-cut">
-        <h1 className="text-container font-extrabold pl-6 py-4 text-4xl lg:text-6xl w-full bg-accent-blue ">
-          {title}
+    <div className="bg-transparent py-10 mx-24">
+      <div className="relative z-50">
+        <h1
+          id="home-heading"
+          className="uppercase text-6xl mt-10 font-extrabold">
+          Seminar on the Seas
         </h1>
+        <div className="uppercase text-5xl font-extrabold">
+          Welcome to a new style of training
+        </div>
+        <div className="py-2 text-4xl font-extrabold text-[#43C6FE]">
+          April 13 - 20, 2025
+        </div>
+        <div className="container text-center flex flex-row flex-wrap font-extrabold text-xl py-2 whitespace-normal uppercase">
+          <span className="item whitespace-nowrap">Miami</span>
+          <span className="item whitespace-nowrap">Cococay</span>
+          <span className="item whitespace-nowrap">Charlotte Amalie</span>
+          <span className="whitespace-nowrap">Philipsburg</span>
+        </div>
+
+        <div className="py-2 uppercase text-lg font-extrabold text-[#D7A770]">
+          Sailing on Royal Caribbean&apos;s Symphony of the Seas
+        </div>
+        <div>
+          <Link
+            href="https://www.royalcaribbean.com/cruise-ships/symphony-of-the-seas"
+            aria-label="Royal Caribbean's Symphony of the Seas">
+            <button className="bg-white uppercase text-lg font-bold text-neutral-900 px-8 py-3 my-10">
+              Come Aboard
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );

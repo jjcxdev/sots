@@ -7,34 +7,38 @@ import Info from "./components/info";
 export default function Header() {
   return (
     <div role="main" aria-labelledby="home-heading">
-      <div className="hidden">
+      <div className="hidden lg:block relative h-full w-full">
+        <div className="absolute top-0 left-0 w-full h-full z-0">
+          <Image
+            src="/img3.webp"
+            alt="symphony of the seas ship"
+            className="object-cover"
+            layout="fill"
+            priority
+          />
+          <div className="relative w-full h-full z-10 diagonal-cut">
+            <Image
+              src="/waves.jpg"
+              alt="symphony of the seas ship"
+              layout="fill"
+              objectFit="cover"
+              // className="z-0"
+            />
+          </div>
+        </div>
         <Splash
           title="Seminar on the Seas"
-          imageSrc="/img5.webp"
+          imageSrc="/img3.webp"
           alt="symphony on the seas"
           date="April 13 - 20, 2025"
           location="Miami Cococay Charlotte Amalie Philpsburg"
           id="seminar"
         />
       </div>
-      <div
-        className="p-8 text-center relative z-50"
-        style={{ position: "relative" }}>
-        <div
-          className="overlay"
-          style={{
-            content: '""',
-            position: "absolute",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
-            backgroundColor: "rgba(0, 0, 0, 0.5)",
-            zIndex: 1,
-          }}></div>
+      <div className="p-8 lg:hidden  relative z-50">
         <h1
           id="home-heading"
-          className="uppercase text-3xl mt-10 font-extrabold relative z-50">
+          className="uppercase text-4xl mt-10 font-extrabold relative z-50">
           Seminar on the Seas
         </h1>
         <div className="uppercase text-2xl font-extrabold relative  z-50">
@@ -43,7 +47,7 @@ export default function Header() {
         <div className="py-2 text-3xl font-extrabold text-[#43C6FE] relative  z-40">
           April 13 - 20, 2025
         </div>
-        <div className="container text-center flex flex-row justify-center flex-wrap font-extrabold text-lg py-2 whitespace-normal uppercase relative  z-30">
+        <div className="container text-center flex flex-row flex-wrap font-extrabold text-lg py-2 whitespace-normal uppercase relative  z-30">
           <span className="item whitespace-nowrap">Miami</span>
           <span className="item whitespace-nowrap">Cococay</span>
           <span className="item whitespace-nowrap">Charlotte Amalie</span>
@@ -57,20 +61,21 @@ export default function Header() {
           <Link
             href="https://www.royalcaribbean.com/cruise-ships/symphony-of-the-seas"
             aria-label="Royal Caribbean's Symphony of the Seas">
-            <button className="bg-white z-10 uppercase text-lg relative  font-bold text-neutral-900 px-8 py-3 m-10">
+            <button className="bg-white z-10 uppercase text-lg relative  font-bold text-neutral-900 px-8 py-3 my-10">
               Come Aboard
             </button>
           </Link>
         </div>
 
         <Image
-          src="/img3.webp"
+          src="/waves.jpg"
           alt="symphony of the seas ship"
           layout="fill"
           objectFit="cover"
           className="z-0"
         />
       </div>
+
       <div>
         <Info />
       </div>

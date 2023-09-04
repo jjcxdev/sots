@@ -30,7 +30,7 @@ const config: Config = {
     plugin(function ({ addUtilities }) {
       const newUtilities = {
         '.diagonal-cut': {
-          clipPath: 'polygon(0 0, 80% 0, 100% 100%, 0% 100%)',
+          clipPath: 'polygon(0 0, 50% 0, 30% 100%, 0% 100%)',
         },
       };
       addUtilities(newUtilities);
