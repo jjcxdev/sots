@@ -19,8 +19,8 @@ const PageHeader: React.FC<PageHeaderProps> = ({ title, imageSrc }) => {
           priority
         />
       </div>
-      <div className=" w-3/5 h-full bg-accent-blue text-white flex items-end z-10 diagonal-cut-3">
-        <h1 className="text-container font-extrabold pl-4 md:pl-10 md:pt-24 lg:pt-48 lg:pl-24 py-4 text-2xl sm:text-4xl md:text-5xl lg:text-6xl w-full bg-accent-blue ">
+      <div className=" w-3/5 h-full bg-custom-blue-dark text-white flex items-end z-10 diagonal-cut-3">
+        <h1 className="text-container font-extrabold pl-4 md:pl-10 md:pt-24 lg:pt-48 lg:pl-24 py-4 text-2xl sm:text-4xl md:text-5xl lg:text-6xl w-full bg-custom-blue-dark">
           {title}
         </h1>
       </div>
