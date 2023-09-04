@@ -25,12 +25,13 @@ address {
 }
 
 .custom-list li::before {
-  content: "•"; /* The bullet symbol */
+  content: "\2022"; /* The bullet symbol */
   position: absolute;
   left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  margin-right: 12px; /* Adjust this to control space between bullet and text */
+  top: 4px;
+  margin-right: 12px;
+  line-height: 1.2;
+  color: gold;
 }
 
 .container {

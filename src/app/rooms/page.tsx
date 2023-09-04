@@ -44,21 +44,75 @@ const Rooms: React.FC = () => (
             blurb="Imagine waking up every morning, opening your balcony door, and being greeted with views of a brand-new and breathtaking part of the world. Reserve a Royal Caribbean Balcony stateroom to enjoy spectacular vistas each and every day from the comfort and privacy of your own room. We believe the best way to explore the world is by sea &#45; and a Balcony stateroom is the perfect way to get a little bit closer to everything!"
           />
         </div>
-        <div className="mx-4 border my-6 border-accent-blue rounded-md">
-          <div className="text-accent-blue uppercase text-xl font-bold text-center p-4">
-            These packages include
+
+        <div className="flex px-4 gap-4 md:w-5/6 lg:w-3/4 m-auto flex-col lg:flex-row">
+          <div className="mb-4 lg:w-1/2  ">
+            <div className="bg-accent-blue p-4 uppercase font-extrabold text-xl border border-custom-blue">
+              Your Price Includes
+            </div>
+            <div className="border  text-neutral-600 text-base border-custom-blue">
+              <div className="p-4">
+                <ul className="custom-list">
+                  <li>Round trip cruise from Miami, FL </li>
+                  <li>
+                    Free Royal Caribbean Deluxe Beverage Package ($550+ value),
+                    find out more
+                  </li>
+                  <li>
+                    As part of the Included Dining experience, unlimited
+                    non-bottled beverages (i.e. water, soda, juices, coffee &
+                    tea) are provided without charge
+                  </li>
+                  <li>
+                    All Taxes, fees, port expenses, mandatory gratuities are
+                    included
+                  </li>
+                  <li>Voom @surf@ WiFi package</li>
+                  <li>
+                    All training courses, ship board integration tour &
+                    reception on the cruise
+                  </li>
+                  <li>
+                    All meals (“Included Dining” features breakfast, lunch,
+                    dinner and snacks in the Windjammer Café and
+                    breakfast/brunch and dinner in the Main Dining Room as well
+                    as food in other “Included” dining venues, i.e. Café
+                    Promenade, solarium Bistro, Boardwalk Dog House).Recreation
+                    facilities, such as Fitness Center, Pools, Hot Tubs, Lazer
+                    Tag, FlowRider®, Rock Climbing Wall, Basketball Court,
+                    Jogging Track
+                  </li>
+                  <li>In-room TV and movies (excluding pay-per-view movies)</li>
+                  <li>Full-service room cleaning</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div className="text-neutral-600 pb-4 px-4">
-            <ul className="custom-list" aria-label="Packages Include">
-              <li>All taxes</li>
-              <li>Port Entry fees</li>
-              <li>Mandatory gratuities</li>
-              <li>Meals</li>
-              <li>1 Deluxe beverage package</li>
-              <li>1 WiFi package</li>
-              <li>All training courses</li>
-              <li>Custom golf shirt & other items</li>
-            </ul>
+
+          <div className="mb-4 lg:w-1/2 ">
+            <div className="bg-accent-blue p-4 uppercase font-extrabold text-xl border border-custom-blue">
+              Your Price Does Not Include
+            </div>
+            <div className="border  text-neutral-600 text-base border-custom-blue">
+              <div className="p-4">
+                <ul className="custom-list">
+                  <li>
+                    Air and ground transportation to and from the pier in Port
+                    Canaveral, FL
+                  </li>
+                  <li>Ground transportation in ports-of-call</li>
+                  <li>Pre- and post-cruise lodging</li>
+                  <li>Dining in Specialty Restaurants</li>
+                  <li>Voom @surf@ WiFi package</li>
+                  <li>
+                    Personal expenditures and purchases such as photos,
+                    souvenirs, excursions, spa services, personal training,
+                    “Escape the Rubicon” escape room, Gambling
+                  </li>
+                  <li>Travel Insurance</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
