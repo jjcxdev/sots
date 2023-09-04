@@ -11,16 +11,17 @@ export default function Header() {
       <div className="hidden lg:block relative h-full w-full">
         <div className="absolute top-0 left-0 w-full h-full z-0">
           <Image
-            src="/img3.webp"
-            alt="symphony of the seas ship"
+            src="/symph.webp"
+            alt="Symphony of the Seas ship"
             className="object-cover"
             layout="fill"
+            style={{ left: "20%" }}
             priority
           />
           <div className="relative w-full h-full z-10 diagonal-cut">
             <Image
               src="/waves.jpg"
-              alt="symphony of the seas ship"
+              alt="background image"
               layout="fill"
               objectFit="cover"
               // className="z-0"

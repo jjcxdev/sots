@@ -7,8 +7,8 @@ const Rooms: React.FC = () => (
     <div role="main" aria-labelledby="rooms-heading">
       <PageHeader
         title="Rooms / Pricing"
-        imageSrc="/img4.webp"
-        alt="View of rooms on the ship"
+        imageSrc="/deck.webp"
+        alt="Deck view of the ship"
         id="Rooms / Pricing"
       />
       <div>
@@ -20,7 +20,7 @@ const Rooms: React.FC = () => (
         <div>
           <RoomCard
             title="Interior Stateroom"
-            imageSrc="/img6.webp"
+            imageSrc="/interiorview.webp"
             price={2125}
             earlybird={1995}
             alt="Interior Stateroom Image"
@@ -31,7 +31,7 @@ const Rooms: React.FC = () => (
         <div>
           <RoomCard
             title="Ocean View Stateroom"
-            imageSrc="/img7.webp"
+            imageSrc="/oceanview.webp"
             price={2295}
             earlybird={2175}
             alt="Ocean View Stateroom Image"
@@ -42,7 +42,7 @@ const Rooms: React.FC = () => (
         <div>
           <RoomCard
             title="Balcony Stateroom"
-            imageSrc="/img8.webp"
+            imageSrc="/balconyview.webp"
             price={2895}
             earlybird={2735}
             alt="Balcony Stateroom Image"

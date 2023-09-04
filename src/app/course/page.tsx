@@ -5,8 +5,8 @@ const CourseCards: React.FC = () => (
   <div role="main" aria-labelledby="course-heading">
     <PageHeader
       title="Courses"
-      imageSrc="/img3.webp"
-      alt="Stage inside the ship"
+      imageSrc="/theatre.webp"
+      alt="Theatre inside the ship"
       id="course-heading"
     />
 

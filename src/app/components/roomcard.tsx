@@ -22,17 +22,16 @@ export const RoomCard: React.FC<RoomCardProps> = ({
   return (
     <div className="py-6 bg-white flex-col flex">
       <div className="m-auto mt-4 w-full ">
-        <div
-          className="relative  overflow-hidden w-full"
-          style={{ height: "325px" }}>
+        <div className="relative overflow-hidden w-full h-60 sm:h-80 md:h-96 xl:h-[600px]">
           <Image
             src={imageSrc}
             alt={title}
             layout="fill"
             objectFit="cover"
-            className="absolute "
+            className="absolute"
           />
         </div>
+
         <div className="w-full flex flex-col">
           {" "}
           {/* Added px-4 here */}
