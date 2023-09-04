@@ -16,44 +16,42 @@ export default function Footer() {
         </div>
         <address
           className="flex flex-col text-center font-normal"
-          aria-labelledby="contact-details"
-        >
+          aria-labelledby="contact-details">
           <div id="contact-details" className="text-base pt-4">
             For Bookings or more information, please contact:
             <br />
             <p className="font-extrabold pt-4">Rhonda Hamilton, CTC </p>
             Direct Travel
             <br />
-            <a className="text-[#D7A770]" href="mailto:rhamilton@dt.com">
-              rhamilton@dt.com
-            </a>
-            <a href="tel:1.800.263.5575" className="ml-2">
-              1.800.263.5575
-            </a>
+            <div className="flex flex-col">
+              <a className="text-[#D7A770]" href="mailto:rhamilton@dt.com">
+                rhamilton@dt.com
+              </a>
+              <a href="tel:1.800.263.5575" className="ml-2">
+                1.800.263.5575
+              </a>
+            </div>
             <br />
             <p className="font-extrabold pt-4">Blair Robin</p>
             Seminar on the Seas
             <br />
-            <a
-              className="text-[#D7A770]"
-              href="mailto:info@seminarontheseas.com"
-            >
-              info@seminarontheseas.com
-            </a>
-            <a href="tel:416.896.2495" className="ml-2 pb-2">
-              416.896.2495
-            </a>
+            <div className="flex flex-col">
+              <a
+                className="text-[#D7A770]"
+                href="mailto:info@seminarontheseas.com">
+                info@seminarontheseas.com
+              </a>
+              <a href="tel:416.896.2495" className="ml-2 pb-2">
+                416.896.2495
+              </a>
+            </div>
           </div>
-          <p className="text-2xs px-4">
-            <br />* Pricing valid until April 18/24.
-            <br />
-            Complimentary rooms based upon 150 cabins being sold.
-            <br />
-            Rooms/pricing may change after this date.
-            <br />* Based on double occupancy.
-            <br />
-            Airfare, hotel (if required) not included (prices subject to change
-            from cruise line)
+          <p className="text-xs px-4">
+            <br />* Pricing valid until April 18/24. Complimentary rooms based
+            upon 150 cabins being sold. Rooms/pricing may change after this
+            date.
+            <br />* Based on double occupancy. Airfare, hotel (if required) not
+            included (prices subject to change from cruise line)
             <br /> ** Does not include any drinks above $12 or specialty dining.
           </p>
         </address>
