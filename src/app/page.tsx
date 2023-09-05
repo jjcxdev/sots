@@ -84,17 +84,17 @@ export default function Header() {
       <div>
         <Info />
       </div>
-      <div className="hidden lg:block relative h-full w-full">
+      <div className="hidden lg:block relative m-auto mx-24 h-full mb-24 w-full">
         <div className="absolute top-0 left-0 w-full h-full z-1">
           <div className="">
             <Image
               src="/anthony.webp"
-              alt="symphony of the seas ship"
-              className="object-contain scale-90"
+              alt="anthony grimani"
+              className="object-contain"
               layout="fill"
               objectPosition="center 30%"
               priority
-              style={{ left: "30%" }}
+              style={{ left: "25%" }}
             />
           </div>
           <div className="relative w-full h-full bg-white z-10 diagonal-cut-2 "></div>
@@ -103,7 +103,7 @@ export default function Header() {
       </div>
 
       <div className="lg:hidden py-12 lg:py-24 px-4 md:px-10 gap-8 lg:px-24">
-        <div className="order-1">
+        <div className="">
           <h2 className="pt-2 uppercase bg-white text-custom-gold text-2xl font-bold">
             VIP Keynote Speaker & Instructor
           </h2>
@@ -112,8 +112,8 @@ export default function Header() {
           </div>
         </div>
         <div
-          className="relative overflow-hidden w-full order-3"
-          style={{ height: "325px" }}
+          className="relative overflow-hidden w-full"
+          style={{ height: "500px" }}
         >
           <Image
             src="/anthony.webp"
@@ -124,7 +124,7 @@ export default function Header() {
             objectPosition="center 40%"
           />
         </div>
-        <div className="bg-white text-neutral-600 pb-2 order-2">
+        <div className="bg-white text-neutral-600 pb-2">
           Anthony Grimani is a highly respected expert in home theater acoustics
           and design. He was named one of the “50 Most Vital Influencers” by
           CustomRetailer magazine and inducted as Fellow of the CEDIA trade

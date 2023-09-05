@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Keynote() {
   return (
-    <div className="bg-transparent py-8 mx-24">
+    <div className="bg-transparent">
       <div className="relative z-50">
         <div className="">
           <h2
