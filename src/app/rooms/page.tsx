@@ -89,17 +89,17 @@ const Rooms: React.FC = () => (
                     All Taxes, fees, port expenses, mandatory gratuities are
                     included
                   </li>
-                  <li>Voom "surf" WiFi package</li>
+                  <li>Voom &quot;surf&quot; WiFi package</li>
                   <li>
                     All training courses, ship board integration tour &
                     reception on the cruise
                   </li>
                   <li>
-                    All meals “Included Dining” features breakfast, lunch,
-                    dinner and snacks in the Windjammer Café and
+                    All meals &quot;Included Dining&quot; features breakfast,
+                    lunch, dinner and snacks in the Windjammer Café and
                     breakfast/brunch and dinner in the Main Dining Room as well
-                    as food in other “Included” dining venues, i.e. Café
-                    Promenade, solarium Bistro, Boardwalk Dog House.
+                    as food in other &quot;Included&quot; dining venues, i.e.
+                    Café Promenade, solarium Bistro, Boardwalk Dog House.
                   </li>
                   <li>
                     Recreation facilities, such as Fitness Center, Pools, Hot
