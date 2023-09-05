@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Keynote() {
   return (
-    <div className="bg-transparent">
-      <div className="relative z-50">
+    <div className="w-full">
+      <div className="relative z-50 w-full">
         <div className="">
           <h2
             id="home-heading"
@@ -15,7 +15,7 @@ export default function Keynote() {
         <div className="uppercase text-2xl text-custom-blue-dark font-extrabold py-2">
           Anthony Grimani
         </div>
-        <div className="py-2 w-7/12 text-sm text-neutral-600">
+        <div className="py-2 w-7/12  text-neutral-600">
           Anthony Grimani is a highly respected expert in home theater acoustics
           and design. He was named one of the “50 Most Vital Influencers” by
           CustomRetailer magazine and inducted as Fellow of the CEDIA trade
