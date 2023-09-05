@@ -7,15 +7,15 @@ export default function Keynote() {
         <div className="">
           <h2
             id="home-heading"
-            className="uppercase text-3xl font-bold text-custom-gold"
+            className="uppercase text-2xl font-bold text-custom-gold"
           >
             VIP Keynote Speaker & Instructor
           </h2>
         </div>
-        <div className="uppercase text-3xl text-custom-blue-dark font-extrabold py-6">
+        <div className="uppercase text-2xl text-custom-blue-dark font-extrabold py-2">
           Anthony Grimani
         </div>
-        <div className="py-2 w-7/12  text-neutral-600">
+        <div className="py-2 w-7/12 text-sm text-neutral-600">
           Anthony Grimani is a highly respected expert in home theater acoustics
           and design. He was named one of the “50 Most Vital Influencers” by
           CustomRetailer magazine and inducted as Fellow of the CEDIA trade

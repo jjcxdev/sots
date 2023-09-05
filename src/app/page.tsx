@@ -8,12 +8,12 @@ import Keynote from "./components/keynote";
 export default function Header() {
   return (
     <div role="main" aria-labelledby="home-heading">
-      <div className="hidden lg:block relative h-full w-full">
-        <div className="absolute top-0 left-0 w-full h-full z-0">
+      <div className="hidden lg:block relative h-full w-full overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-full z-0 overflow-hidden">
           <Image
             src="/night2.webp"
             alt="Symphony of the Seas ship"
-            className="object-cover"
+            className="object-cover overflow-hidden"
             layout="fill"
             style={{ left: "20%" }}
             priority
@@ -84,22 +84,24 @@ export default function Header() {
       <div>
         <Info />
       </div>
-      <div className="hidden lg:block relative m-auto mx-24 h-full mb-24 w-full">
-        <div className="absolute top-0 left-0 w-full h-full z-1">
-          <div className="">
-            <Image
-              src="/anthony.webp"
-              alt="anthony grimani"
-              className="object-contain"
-              layout="fill"
-              objectPosition="center 30%"
-              priority
-              style={{ left: "25%" }}
-            />
+      <div className="px-24 pb-24 hidden lg:block ">
+        <div className="relative m-auto h-full overflow-hidden w-full">
+          <div className="absolute top-0 left-0 w-full h-full z-1 overflow-hidden">
+            <div className="">
+              <Image
+                src="/anthony.webp"
+                alt="anthony grimani"
+                className="object-contain overflow-hidden"
+                layout="fill"
+                objectPosition="center 30%"
+                priority
+                style={{ left: "25%" }}
+              />
+            </div>
+            <div className="relative w-full h-full bg-white z-10 diagonal-cut-2 "></div>
           </div>
-          <div className="relative w-full h-full bg-white z-10 diagonal-cut-2 "></div>
+          <Keynote />
         </div>
-        <Keynote />
       </div>
 
       <div className="lg:hidden py-12 lg:py-24 px-4 md:px-10 gap-8 lg:px-24">
@@ -120,7 +122,7 @@ export default function Header() {
             alt="anthony grimani"
             layout="fill"
             objectFit="cover"
-            className="absolute pb-2"
+            className="absolute pb-2 overflow-hidden"
             objectPosition="center 40%"
           />
         </div>

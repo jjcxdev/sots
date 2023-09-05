@@ -25,11 +25,17 @@ export default function Footer() {
             Direct Travel
             <br />
             <div className="flex flex-col">
-              <a className="text-[#D7A770]" href="mailto:rhamilton@dt.com">
+              <a
+                className="text-[#D7A770] hover:text-white"
+                href="mailto:rhamilton@dt.com"
+              >
                 rhamilton@dt.com
               </a>
-              <a href="tel:1.800.263.5575" className="ml-2">
-                1.800.263.5575
+              <a
+                href="tel:1.800.263.5575"
+                className="ml-2 hover:text-[#D7A770]"
+              >
+                1.800.263.5575 ext. 1230
               </a>
             </div>
             <br />
@@ -38,12 +44,15 @@ export default function Footer() {
             <br />
             <div className="flex flex-col">
               <a
-                className="text-[#D7A770]"
+                className="text-[#D7A770] hover:text-white"
                 href="mailto:info@seminarontheseas.com"
               >
                 info@seminarontheseas.com
               </a>
-              <a href="tel:416.896.2495" className="ml-2 pb-2">
+              <a
+                href="tel:416.896.2495"
+                className="ml-2 pb-2 hover:text-[#D7A770]"
+              >
                 416.896.2495
               </a>
             </div>

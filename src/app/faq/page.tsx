@@ -66,8 +66,19 @@ const FAQPage: React.FC = () => (
           Contact Rhonda Hamilton at Direct Travel for Travel insurance.
           <br />
           <br />
-          <Link href="mailto: rhamilton@dt.com">rhamilton@dt.com</Link>{" "}
-          <div className="tel:1.800.263.5575">1.800.263.5575</div>
+          <Link
+            href="mailto: rhamilton@dt.com"
+            className="text-accent-blue underline hover:text-custom-gold"
+          >
+            rhamilton@dt.com
+          </Link>
+          <br />
+          <a
+            className="text-accent-blue underline hover:text-custom-gold"
+            href="tel:1.800.263.5575"
+          >
+            1.800.263.5575 ext. 1230
+          </a>
         </Card>
         <div role="article" aria-labelledby="documents-heading" />
         <Card title="Travel Documentation" id="documents-heading">

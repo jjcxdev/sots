@@ -12,7 +12,7 @@ const Rooms: React.FC = () => (
         id="Rooms / Pricing"
       />
       <div>
-        <div className="bg-custom-gold lg:text-3xl p-4 px-9 text-center uppercase font-extrabold text-xl border border-custom-blue">
+        <div className="bg-custom-gold p-4 px-9 text-center uppercase font-extrabold text-2xl border border-custom-blue">
           All prices are per person
         </div>
       </div>
@@ -64,10 +64,10 @@ const Rooms: React.FC = () => (
 
         <div className="flex gap-4 m-auto flex-col lg:flex-row">
           <div className="mb-4 lg:w-1/2  ">
-            <div className="bg-accent-blue lg:text-3xl p-4 px-9 text-center uppercase font-extrabold text-xl border border-custom-blue">
+            <div className="bg-accent-blue  p-4 px-9 text-center uppercase font-extrabold text-2xl border border-custom-blue">
               Your Price Includes
             </div>
-            <div className="border  text-neutral-600 text-base lg:text-2xl border-custom-blue">
+            <div className="border  text-neutral-600 text-base  border-custom-blue">
               <div className="p-4">
                 <ul className="custom-list">
                   <li>Round trip cruise from Miami, FL </li>
@@ -114,10 +114,10 @@ const Rooms: React.FC = () => (
           </div>
 
           <div className="mb-4 lg:w-1/2 ">
-            <div className="bg-accent-blue p-4 px-9 uppercase lg:text-3xl text-center font-extrabold text-xl border border-custom-blue">
+            <div className="bg-accent-blue p-4 px-9 uppercase text-center font-extrabold text-2xl border border-custom-blue">
               Your Price Does Not Include
             </div>
-            <div className="border  text-neutral-600 lg:text-2xl text-base border-custom-blue">
+            <div className="border  text-neutral-600 text-base border-custom-blue">
               <div className="p-4">
                 <ul className="custom-list">
                   <li>

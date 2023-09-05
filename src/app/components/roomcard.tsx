@@ -36,17 +36,17 @@ export const RoomCard: React.FC<RoomCardProps> = ({
           {" "}
           {/* Added px-4 here */}
           <div className="mb-4 ">
-            <div className="bg-accent-blue p-4 lg:text-3xl  uppercase font-extrabold text-xl border border-custom-blue">
+            <div className="bg-accent-blue p-4 text-2xl  uppercase font-extrabold border border-custom-blue">
               {title}
             </div>
-            <div className="border lg:text-2xl  text-neutral-600 text-base border-custom-blue">
+            <div className="border text-neutral-600 text-base border-custom-blue">
               <div className="p-4">{blurb}</div>
 
               <div className="w-full flex flex-col"></div>
               <div
                 className={
                   price
-                    ? "pt-4 bg-custom-blue-dark items-center text-white text-4xl lg:text-6xl text-center font-extrabold"
+                    ? "pt-4 bg-custom-blue-dark items-center text-white text-4xl text-center font-extrabold"
                     : ""
                 }
                 style={{
@@ -57,14 +57,14 @@ export const RoomCard: React.FC<RoomCardProps> = ({
                 {price && `$${price.toLocaleString()}`}
               </div>
 
-              <div className="py-4 bg-custom-blue-dark items-center text-yellow-400 text-2xl lg:text-5xl text-center font-extrabold">
+              <div className="py-4 bg-custom-blue-dark items-center text-yellow-400 text-2xl  text-center font-extrabold">
                 {typeof earlybird === "number"
                   ? `$${earlybird.toLocaleString()}`
                   : earlybird
                   ? earlybird
                   : "N/A"}
                 {typeof earlybird === "number" && (
-                  <p className="text-base lg:text-3xl">
+                  <p className="text-base ">
                     Early bird discount until August 31, 2024
                   </p>
                 )}
