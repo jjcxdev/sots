@@ -89,7 +89,7 @@ const Rooms: React.FC = () => (
                     All Taxes, fees, port expenses, mandatory gratuities are
                     included
                   </li>
-                  <li>Voom surf WiFi package</li>
+                  <li>Voom "surf" WiFi package</li>
                   <li>
                     All training courses, ship board integration tour &
                     reception on the cruise
