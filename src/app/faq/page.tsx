@@ -1,5 +1,6 @@
 import Card from "../components/faqcard";
 import PageHeader from "../components/pageheader";
+import Link from "next/link";
 
 const FAQPage: React.FC = () => (
   <div className="bg-white" role="main" aria-labelledby="faq-heading">
@@ -13,28 +14,25 @@ const FAQPage: React.FC = () => (
       <div
         role="region"
         aria-labelledby="questions-heading"
-        className="flex gap-8 flex-col">
+        className="flex gap-8 flex-col"
+      >
         <div role="article" aria-labelledby="payment-heading" />
 
         <Card title="Payments" id="payment-heading">
+          Full payments due by January 12, 2024
+          <br />
+          <br />
           Deposits are due at the time of booking:
           <br />
           <br />
           <ul
             className="custom-list"
-            aria-label="Deposit amounts per room type">
+            aria-label="Deposit amounts per room type"
+          >
             <li>Interior/Ocean view $400 per person</li>
             <li>Balcony $500 per person</li>
-            <li>Suites $600 per person</li>
+            <li>Contact us for Suite information</li>
           </ul>
-          <br />
-          Select your preferred payment plan (quarterly or monthly).
-          Installments are charged on the 1st of the month based on your
-          selected payment plan.
-          <br />
-          <br />
-          Included for each guest are port fees, taxes, gratuities & deluxe
-          drink package.
         </Card>
         <div role="article" aria-labelledby="cancellations-heading" />
         <Card title="Cancellations / Changes" id="cancellations-heading">
@@ -63,6 +61,13 @@ const FAQPage: React.FC = () => (
           secure the broadest coverage, including pre-existing conditions,
           Travel Insurance must be purchased within 14 days of the payment of
           your deposit.
+          <br />
+          <br />
+          Contact Rhonda Hamilton at Direct Travel for Travel insurance.
+          <br />
+          <br />
+          <Link href="mailto: rhamilton@dt.com">rhamilton@dt.com</Link>{" "}
+          <div className="tel:1.800.263.5575">1.800.263.5575</div>
         </Card>
         <div role="article" aria-labelledby="documents-heading" />
         <Card title="Travel Documentation" id="documents-heading">

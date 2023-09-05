@@ -3,8 +3,8 @@ import Image from "next/image";
 type RoomCardProps = {
   title: string;
   imageSrc: string;
-  price: number;
-  earlybird: number;
+  price?: number | string;
+  earlybird?: number | string;
   blurb: string;
   id: string;
   alt: string;
@@ -44,19 +44,30 @@ export const RoomCard: React.FC<RoomCardProps> = ({
 
               <div className="w-full flex flex-col"></div>
               <div
-                className="pt-4 bg-custom-blue-dark items-center text-white text-4xl lg:text-6xl text-center font-extrabold"
+                className={
+                  price
+                    ? "pt-4 bg-custom-blue-dark items-center text-white text-4xl lg:text-6xl text-center font-extrabold"
+                    : ""
+                }
                 style={{
-                  textDecoration: "line-through",
-                  textDecorationColor: "red",
-                }}>
-                ${price.toLocaleString()}
+                  textDecoration: price ? "line-through" : "none",
+                  textDecorationColor: price ? "red" : "none",
+                }}
+              >
+                {price && `$${price.toLocaleString()}`}
               </div>
 
-              <div className="pb-4 bg-custom-blue-dark items-center text-yellow-400 text-2xl lg:text-5xl text-center font-extrabold">
-                ${earlybird.toLocaleString()}
-                <p className="text-base lg:text-3xl">
-                  Early bird discount until August 31, 2024
-                </p>
+              <div className="py-4 bg-custom-blue-dark items-center text-yellow-400 text-2xl lg:text-5xl text-center font-extrabold">
+                {typeof earlybird === "number"
+                  ? `$${earlybird.toLocaleString()}`
+                  : earlybird
+                  ? earlybird
+                  : "N/A"}
+                {typeof earlybird === "number" && (
+                  <p className="text-base lg:text-3xl">
+                    Early bird discount until August 31, 2024
+                  </p>
+                )}
               </div>
             </div>
           </div>

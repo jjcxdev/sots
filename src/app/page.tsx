@@ -11,7 +11,7 @@ export default function Header() {
       <div className="hidden lg:block relative h-full w-full">
         <div className="absolute top-0 left-0 w-full h-full z-0">
           <Image
-            src="/symph.webp"
+            src="/night2.webp"
             alt="Symphony of the Seas ship"
             className="object-cover"
             layout="fill"
@@ -33,10 +33,11 @@ export default function Header() {
       <div className="p-8 lg:hidden  relative z-50">
         <h1
           id="home-heading"
-          className="uppercase text-4xl mt-10 font-extrabold relative z-50">
+          className="uppercase text-4xl mt-10 font-extrabold relative z-50"
+        >
           Seminar on the Seas
         </h1>
-        <div className="uppercase text-2xl w-1/2 font-extrabold relative  z-50">
+        <div className="uppercase text-2xl w-5/12 font-extrabold relative  z-50">
           Welcome to a new style of training
         </div>
         <div className="py-2 text-3xl font-extrabold text-[#43C6FE] relative  z-40">
@@ -55,8 +56,9 @@ export default function Header() {
         <div>
           <Link
             href="https://www.royalcaribbean.com/cruise-ships/symphony-of-the-seas"
-            aria-label="Royal Caribbean's Symphony of the Seas">
-            <button className="bg-white z-10 uppercase text-lg relative hover:bg-custom-gold hover:text-white font-bold text-neutral-900 px-8 py-3 my-10">
+            aria-label="Royal Caribbean's Symphony of the Seas"
+          >
+            <button className="bg-white z-10 uppercase text-lg relative hover:bg-accent-blue hover:text-white font-bold text-neutral-900 px-8 py-3 my-10">
               Come Aboard
             </button>
           </Link>
@@ -88,55 +90,82 @@ export default function Header() {
             <Image
               src="/anthony.webp"
               alt="symphony of the seas ship"
-              className="object-cover"
+              className="object-contain scale-90"
               layout="fill"
+              objectPosition="center 30%"
               priority
               style={{ left: "30%" }}
             />
           </div>
-          <div className="relative w-full h-full bg-white z-10 diagonal-cut-2"></div>
+          <div className="relative w-full h-full bg-white z-10 diagonal-cut-2 "></div>
         </div>
         <Keynote />
       </div>
 
-      <div className="lg:hidden">
-        <h2 className="pt-2 px-4 uppercase text-center bg-white text-custom-gold text-2xl font-bold">
-          VIP Keynote Speaker & Instructor
-        </h2>
-        <div className="pb-2 uppercase text-center bg-white text-custom-blue-dark text-2xl font-bold">
-          Anthony Grimani
+      <div className="lg:hidden py-12 lg:py-24 px-4 md:px-10 gap-8 lg:px-24">
+        <div className="order-1">
+          <h2 className="pt-2 uppercase bg-white text-custom-gold text-2xl font-bold">
+            VIP Keynote Speaker & Instructor
+          </h2>
+          <div className="pb-2 uppercase bg-white text-custom-blue-dark text-2xl font-bold">
+            Anthony Grimani
+          </div>
         </div>
         <div
-          className="relative overflow-hidden w-full"
-          style={{ height: "325px" }}>
+          className="relative overflow-hidden w-full order-3"
+          style={{ height: "325px" }}
+        >
           <Image
             src="/anthony.webp"
             alt="anthony grimani"
             layout="fill"
             objectFit="cover"
-            className="absolute"
+            className="absolute pb-2"
+            objectPosition="center 40%"
           />
         </div>
-        <p className="bg-white text-neutral-600 p-4 py-10 md:p-10">
-          Anthony Grimani is a highly respected expert in home theatre acoustics
+        <div className="bg-white text-neutral-600 pb-2 order-2">
+          Anthony Grimani is a highly respected expert in home theater acoustics
           and design. He was named one of the “50 Most Vital Influencers” by
           CustomRetailer magazine and inducted as Fellow of the CEDIA trade
           association. In 2013, CEPro Magazine named him one of the “Top 20 Most
-          Influential People of the Past 20 Years.” He&apos;s a frequent
-          lecturer at industry conferences such as{" "}
-          <Link
-            className="text-custom-gold uppercase font-bold hover:underline hover:text-custom-gold"
-            href="https://aes2.org/">
-            AES
-          </Link>{" "}
-          and{" "}
-          <Link
-            className="text-custom-gold uppercase font-bold hover:underline hover:text-custom-gold"
-            href="https://cedia.net/">
-            CEDIA
-          </Link>{" "}
-          and earned the CEDIA Top Instructor award.
-        </p>
+          Influential People of the Past 20 Years.”
+          <br />
+          <br />
+          His more than 25 years of industry experience include executive
+          positions at Dolby and Lucasfilm THX.
+          <br />
+          <br />
+          At Dolby, Anthony was intricately involved in the development of
+          surround sound for consumer applications. During his nine-year tenure
+          at THX, he managed the THX consumer licensing program and the
+          technology development program, setting the direction for consumer and
+          professional Audio/Video businesses.
+          <br />
+          <br />
+          Anthony developed the Home THX program, the THX PM3 program, and
+          invented the revolutionary Surround EX 6.1 channel audio format
+          pioneered in Star Wars, the Phantom Menace.
+          <br />
+          <br />
+          He&apos;s a frequent lecturer at industry conferences such as AES
+          (Audio Engineering Society) and CEDIA (Custom Electronics Design and
+          Installation Association) and earned the CEDIA Top Instructor award.
+          <br />
+          <br />
+          Anthony holds six patents in the area of audio and acoustics. He
+          received his bachelor&apos;s degree in Electrical Engineering from the
+          University of California at Davis.
+          <br />
+          <br />
+          He&apos;s been passionate about music and technology since he was a
+          young man. He studied at the Music Conservatory in Paris and tinkered
+          with gear lying around his father&apos;s amateur audio workshop.
+          <br />
+          <br />
+          Born in Asia and raised in Europe, Anthony speaks four languages
+          fluently. He resides in Marin County with his wife.
+        </div>
       </div>
     </div>
   );

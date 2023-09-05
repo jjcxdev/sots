@@ -6,7 +6,8 @@ export default function Splash() {
       <div className="relative z-50">
         <h1
           id="home-heading"
-          className="uppercase text-6xl mt-10 font-extrabold">
+          className="uppercase text-6xl mt-10 font-extrabold"
+        >
           Seminar on the Seas
         </h1>
         <div className="uppercase text-5xl w-1/2 font-extrabold">
@@ -28,8 +29,9 @@ export default function Splash() {
         <div>
           <Link
             href="https://www.royalcaribbean.com/cruise-ships/symphony-of-the-seas"
-            aria-label="Royal Caribbean's Symphony of the Seas">
-            <button className="bg-white uppercase hover:bg-custom-gold hover:text-white  text-lg font-bold text-neutral-900 px-8 py-3 my-10">
+            aria-label="Royal Caribbean's Symphony of the Seas"
+          >
+            <button className="bg-white uppercase hover:bg-accent-blue hover:text-white  text-lg font-bold text-neutral-900 px-8 py-3 my-10">
               Come Aboard
             </button>
           </Link>
