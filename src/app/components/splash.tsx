@@ -28,8 +28,8 @@ export default function Splash() {
         </div>
         <div>
           <Link
-            href="https://www.royalcaribbean.com/cruise-ships/symphony-of-the-seas"
-            aria-label="Royal Caribbean's Symphony of the Seas"
+            href="mailto:info@seminarontheseas.com"
+            aria-label="Contact Seminar on the Seas"
           >
             <button className="bg-white uppercase hover:bg-accent-blue hover:text-white  text-lg font-bold text-neutral-900 px-8 py-3 my-10">
               Come Aboard
