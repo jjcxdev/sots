@@ -13,7 +13,7 @@ const Rooms: React.FC = () => (
       />
       <div>
         <div className="bg-custom-gold p-4 px-9 text-center uppercase font-extrabold text-2xl border border-custom-blue">
-          All prices are per person
+          All prices are per person in USD
         </div>
       </div>
       <div className="py-6 bg-white mx-4 md:mx-10 lg:mx-24">
@@ -58,7 +58,7 @@ const Rooms: React.FC = () => (
             earlybird={"Contact Rhonda Hamilton for prices"}
             alt="Suite Stateroom Image"
             id="Suite Stateroom"
-            blurb="Need copy"
+            blurb="Real luxury is so much more than design and amenities. It’s about unforgettable experiences — moments that inspire, service that exceeds expectations, and one-of-a-kind adventures that give you stories to bring home. You'll discover all that and more when you sail in a royal Suite Classe"
           />
         </div>
 

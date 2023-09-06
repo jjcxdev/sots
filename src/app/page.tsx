@@ -1,9 +1,7 @@
-import Trainer from "./components/trainer";
 import Image from "next/image";
 import Link from "next/link";
 import Splash from "./components/splash";
 import Info from "./components/info";
-import Keynote from "./components/keynote";
 
 export default function Header() {
   return (
@@ -24,7 +22,6 @@ export default function Header() {
               alt="background image"
               layout="fill"
               objectFit="cover"
-              // className="z-0"
             />
           </div>
         </div>
@@ -55,8 +52,8 @@ export default function Header() {
         </div>
         <div>
           <Link
-            href="https://www.royalcaribbean.com/cruise-ships/symphony-of-the-seas"
-            aria-label="Royal Caribbean's Symphony of the Seas"
+            href="mailto@info@seminarontheseas.com"
+            aria-label="Seminar on the Seas contact"
           >
             <button className="bg-white z-10 uppercase text-lg relative hover:bg-accent-blue hover:text-white font-bold text-neutral-900 px-8 py-3 my-10">
               Come Aboard

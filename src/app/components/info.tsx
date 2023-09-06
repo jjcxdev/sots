@@ -24,8 +24,7 @@ export default function Info() {
         some sun at one of the four swimming pools.
         <br />
         <br />
-        Also, enjoy world-class dining and accommodations as well as every
-        participant has a drink voucher for the cruise. Unrivalled onboard
+        Also, enjoy world-class dining and accommodations. Unrivalled onboard
         activities and amenities, delicious dining options, a full-service spa,
         and Broadway-caliber entertainment are some of the amenities waiting for
         you and your family

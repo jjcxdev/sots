@@ -125,7 +125,8 @@ const CourseCards: React.FC = () => (
               application.
             </li>
             <li className="pb-2">
-              Flat panel, projector, LED walls. When and how to use them.
+              The future of flat panel, projector, LED walls. When and how to
+              use them.
             </li>
             <li>
               Standards and certifications A/V for residential and commercial.
@@ -169,10 +170,6 @@ const CourseCards: React.FC = () => (
           <ul className="custom-list " aria-label="Other event highlights">
             <li className="pb-2">
               Welcome reception in the evening after departing Tampa.
-            </li>
-            <li className="pb-2">
-              Behind the scenes tour of the A/V, automation equipment for
-              entertainment areas of the ship.
             </li>
           </ul>
         </Card>
